@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/p5.js"></script>
+    <script>
+      var n = 0;
+      var steps = 1000;
+      var inc = 0.01;
+
+      function setup(){
+        noiseSeed(12);
+        createCanvas(385, 595);
+        textFont('monospace');
+        textSize(40);
+        textAlign(CENTER, CENTER);
+      }
+
+      function draw(){
+        background(255);
+        for(var i = -steps; i < steps*2; i++){
+          line(
+            width * (noise((i+n) * inc) + i/steps - 0.5), 
+            noise((i+n) * inc, 100) * height, 
+            i*(width/steps), 
+            height/2
+          );
+          line(
+            width * (noise((i+n) * inc) + i/steps - 0.5), 
+            noise((i+n) * inc, 100) * height, 
+            width * (noise((i+n+1) * inc) + (i+1)/steps - 0.5), 
+            noise((i+n+1) * inc, 100) * height
+          ); 
+        }
+        line(0, height/2, width, height/2);
+        text("n = "+n, width/2, height-20);
+        n += 5;
+      }
+    </script>
+    <title>Speaking Without Speaking</title>
+  </head>
+  <body style="text-align: center">
+  </body>
+</html>

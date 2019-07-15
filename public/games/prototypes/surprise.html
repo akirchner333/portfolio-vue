@@ -1,0 +1,148 @@
+<!-- I fucking wrote over the real document by accident. So I'll have to either
+find an old copy on my drive or rewrite it from scratch. Fuck fuck fuck. -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Exciting Jumping Game</title>
+		<script type="text/javascript" src="https://ssl-webplayer.unity3d.com/download_webplayer-3.x/3.0/uo/jquery.min.js"></script>
+		<script type="text/javascript">
+		<!--
+		var unityObjectUrl = "http://webplayer.unity3d.com/download_webplayer-3.x/3.0/uo/UnityObject2.js";
+		if (document.location.protocol == 'https:')
+			unityObjectUrl = unityObjectUrl.replace("http://", "https://ssl-");
+		document.write('<script type="text\/javascript" src="' + unityObjectUrl + '"><\/script>');
+		-->
+		</script><script type="text/javascript" src="http://webplayer.unity3d.com/download_webplayer-3.x/3.0/uo/UnityObject2.js"></script>
+		<script type="text/javascript">
+		<!--
+			var config = {
+				width: 800, 
+				height: 600,
+				params: { enableDebugging:"0" }
+				
+			};
+			var u = new UnityObject2(config);
+
+			jQuery(function() {
+
+				var $missingScreen = jQuery("#unityPlayer").find(".missing");
+				var $brokenScreen = jQuery("#unityPlayer").find(".broken");
+				$missingScreen.hide();
+				$brokenScreen.hide();
+				
+				u.observeProgress(function (progress) {
+					switch(progress.pluginStatus) {
+						case "broken":
+							$brokenScreen.find("a").click(function (e) {
+								e.stopPropagation();
+								e.preventDefault();
+								u.installPlugin();
+								return false;
+							});
+							$brokenScreen.show();
+						break;
+						case "missing":
+							$missingScreen.find("a").click(function (e) {
+								e.stopPropagation();
+								e.preventDefault();
+								u.installPlugin();
+								return false;
+							});
+							$missingScreen.show();
+						break;
+						case "installed":
+							$missingScreen.remove();
+						break;
+						case "first":
+						break;
+					}
+				});
+				u.initPlugin(jQuery("#unityPlayer")[0], "Unity/Race.unity3d");
+			});
+
+			//I added this stuff
+			var body;
+
+			document.addEventListener("DOMContentLoaded", function(event) {
+				body = document.getElementById("Body");
+			});
+
+			document.addEventListener('scroll', changeBlue);
+
+			blue = 255;
+
+			function changeBlue(){
+				if(blue > 0){
+					blue = blue - 5;
+					u.getUnity().SendMessage("Main Camera", "ReduceColor", "");
+					console.log("scroll. Blue is " + blue);
+					body.style.background = "rgb(0, 0, " + blue + ")";
+				}else{
+					u.getUnity().SendMessage("Main Camera", "StopFall", "");
+				}
+			}
+
+			function debug(message){
+				console.log("Unity says: " + message);
+			}
+		-->
+		</script>
+
+		<!-- SCRIPT FOUR, my own special script -->
+		<script type="text/javascript" src="scripts/surprise.js"></script>
+
+		<!-- FOr some reason unity doesn't like too communicate with scripts that are in different files. So this here-->
+		<script type="text/javascript">
+		<!--
+		var marginTop = 10
+		var marginRight = 200;
+
+		function IncreaseMarginVertical(amount){
+			var unityPlayer = document.getElementById("Unity");
+
+			console.log("increasing margin");
+			marginTop = marginTop + amount;
+			unityPlayer.style.margin = "" + marginTop + "px 0px 0px " + marginRight + "px";
+		}
+
+		function IncreaseMarginHorizontal(amount){
+			var unityPlayer = document.getElementById("Unity");
+
+			console.log("increasing margin");
+			marginRight = marginRight + amount;
+			unityPlayer.style.margin = "" + marginTop + "px 0px 0px " + marginTop + "px";
+		}
+
+		function RestartPage(){
+			// marginTop = 10;
+			// marginRight = 200;
+			// IncreaseMarginVertical(0);
+			location.reload();
+		}
+		-->
+		</script>
+
+		<!-- THE CSS, which I moved over to it's own page because I'm not a monster -->
+		<link rel="Stylesheet" type="text/css" href="../../css/surprise.css">
+
+	</head>
+
+	<body id="Body">
+		<div class="content" id="Unity">
+			<div id="unityPlayer">
+				<div class="missing">
+					<a href="http://unity3d.com/webplayer/" title="Unity Web Player. Install now!">
+						<img alt="Unity Web Player. Install now!" src="http://webplayer.unity3d.com/installation/getunity.png" width="193" height="63">
+					</a>
+				</div>
+				<div class="broken">
+					<a href="http://unity3d.com/webplayer/" title="Unity Web Player. Install now! Restart your browser after install.">
+						<img alt="Unity Web Player. Install now! Restart your browser after install." src="http://webplayer.unity3d.com/installation/getunityrestart.png" width="193" height="63">
+					</a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

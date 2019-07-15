@@ -1,0 +1,27 @@
+/* Universal styles. Some of the spacing and sizing is in here, so what you see on the page is accurate to what's on the page */
+
+.zine{
+  position: relative;
+}
+
+.page{
+  width: 2.75in;
+  height: 4.25in;
+  box-sizing: border-box;
+  padding-bottom: 0.25in;
+  word-wrap: break-word;
+  /*overflow: hidden;*/
+}
+
+.front, .page4{
+  padding-right: 0.25in;
+}
+
+.page5, .page1{
+  padding-left: 0.25in;
+}
+
+.inner{
+  height: 4in;
+  overflow: hidden;
+}

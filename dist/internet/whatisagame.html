@@ -1,0 +1,84 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
+    <!-- uncomment lines below to include extra p5 libraries -->
+    <script language="javascript" src="libraries/p5.dom.js"></script>
+    <!--<script language="javascript" src="libraries/p5.sound.js"></script>-->
+    <script language="javascript" type="text/javascript" src="crows.js"></script>
+    <title>What Is A Game?</title>
+    <style>
+      body{
+        font-size: 20px;
+      }
+
+      .skull{
+        background-image: url(./crow.png);
+        background-repeat: no-repeat;
+        position: absolute;
+      }
+
+      @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+      @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+      @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+      #declaration{
+        width: 100%;
+      }
+
+      .center{
+        text-align: center;
+      }
+
+      #declaration div{
+        margin-bottom: 20px;
+      }
+
+      .intro{
+        font-size: 18px;
+        margin-left: 50px;
+        margin-right: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id = "declaration">
+      <h1 class="center">WHAT IS A GAME?</h1>
+      <div class="center"><strong>BERNARD SUITS</strong><br>University of Waterloo</div>
+      <div class="center intro">
+        By means of a critical examination of a number of theses as to the nature of game-playing, the following definition is advanced: To play a game is to engage in activity directed toward bringing about a specific state of affairs, using only means permitted by specific rules, where the means permitted by the rules are more limited in scope than they would be in the absence of the rules, and where the sole reason for accepting such limitation is to make possible such activity.
+      </div>
+      <div>
+        Prompted by the current interest of social and behavioral scientists in games, and encouraged by the modest belief that it is not demonstrably impossible for philosophers to say something of interest to scientists, I propose to formulate a definition of game-playing.
+      </div>
+      <div>
+        <strong>1. Game-Playing as the Selection of Inefficient Means.</strong> Mindful of the ancient canon that the quest for knowledge obliges us to proceed from what is knowable to us to what is knowablein itself, I shall begin with the commonplace that playing games is different from working. Games, therefore, might be expected to be what work, in some salient respect, is not. Let me now baldly characterize work as "technical activity," by which I mean activity in which an agent (as rational worker) seeks to employ the most efficient available means for reaching a desired goal. Since games, too, evidently have goals, and since means are evidently employed for their attainment,the possibility suggests itself that games differ from technical activities in that the means employed in games are not the most efficient. Let us say, then, that games are goal-directed activities in which inefficient means are intentionally (or rationally) chosen. For example,in racingg ames one voluntarily goes all around the trackin an effort to arrive at the finish line instead of "sensibly" cutting straight across the infield.
+      </div>
+      <div>
+        The following considerations, however, seem to cast doubt on this proposal. The goal of a game, we may say, is winning the game. Let us take an example. In poker I am a winner if I have more money when I stop playing than I had when I started. But suppose that one of the other players, in the course of the game, repays me a debt of a hundred dollars, or suppose I hit another player on the head and take all of his money from him. Then, althoughI have not won a single hand all evening, am I neverthelessa winner? Clearly not, since I didn't increase my money as a consequence of playing poker. In order to be a winner, a sign and product of which is, to be sure, the gaining of money, certain conditions must be met which are not met by the collection of a debt or by felonious assault. These conditions are the rules of poker, which tell us what we can and what we cannot do with the cards and the money. Winning at poker consists in increasing one's money by using only those means permitted by the rules, although mere obedience to the rules does not by itself insure victory. Better and worse means are equally permitted by the rules. Thus in Draw Poker retaining an ace along with a pair and discarding the ace while retaining the pair are both permissible plays, although one is usually a better play than the other. The means for winning at poker, therefore, are limited, but not completely determinedby, the rules. Attempting to win at poker may accordingly be described as attempting to gain money by using the most efficient means available, where only those means permitted by the rules are available. But if that is so, then playing poker is a technical activity as originally defined.
+      </div>
+      <div>
+        Still, this seems a strange conclusion. The belief that working and playing games are quite different things is very widespread,yet we seem obliged to say that playing a game is just another job to be done as competently as possible. Before giving up the thesis that playing a game involves a sacrifice of efficiency, therefore, let us consider one more example. Suppose I make it my purpose to get a small round object into a hole in the groundas efficiently as possible. Placing it in the hole with my hand would be a natural means to adopt. But surely I would not take a stick with a piece of metal on one end of it, walk three or four hundred yards away from the hole, and then attempt to propel the ball into the hole with the stick. That would not be technically intelligent. But such an undertaking is an extremely popular game, and the foregoing way of describing it evidently shows how games differ from technical activities.
+      </div>
+      <div>
+        But of course it shows nothing of the kind. The end in golf is not correctly described as getting a ball into a hole in the ground, nor even, to be more precise, into several holes in a set order. It is to achieve that end with the smallest possible number of strokes. But strokes are certain types of swings with a golf club. Thus, if my end were simply to get a ball into a number of holes in the ground, I would not be likely to use a golf club in order to achieve it, nor would I stand at a considerable distance from each hole. But if my end were to get a ball into some holes with a golf club while standing at a considerable distance from each hole, why then I would certainly use a golf club and I would certainly take up such positions. Once committedto that end, moreover, I would strive to accomplish it as efficiently as possible. Surely no one would want to maintain that if I conducted myself with utter efficiency in pursuit of this end I would not be playing a game, but that I would be playing a game just to the extent that I permitted my efforts to become sloppy. Nor is it the case that my use of a golf club is a less efficient way to achieve my end than would be the use of my hand. To refrain from using a golf club as a means of sinking a ball with a golf club is not more efficient because it is not possible. Inefficient selection of means, accordingly, does not seem to be a satisfactory account of game-playing.
+      </div>
+      <div>
+        <strong>2. The Inseparability of Rules and Ends in Games.</strong> The objection advanced against the last thesis rests upon, and thus brings to light, consideration of the place of rules in games: they seem to stand in a peculiar relation to ends. The end in poker is not simply to gain money, nor in golf simply to get a ball into a hole, but to do these things in prescribed (or, perhaps more accurately, not to do them in proscribed) ways; that is, to do them only in accordance with rules. Rules in games thus seem to be in some sense inseparable from ends. To break a rule is to render impossible the attainment of an end. Thus, although you may receive the trophy by lying about your golf score, you have certainly not won the game. But in what we have called technical activity it is possible to gain an end by breaking a rule; for example, gaining a trophy by lying about your golf score. Whereas it is possible in a technical action to break a rule without destroying the original end of the action, in games the reverse appears to be the case. If the rules are broken the original end becomes impossible of attainment, since one cannot (really) win the game unless he plays it, and one cannot (really) play the game unless he obeys the rules of the game.
+      </div>
+      <div>
+        Hey, where are all these crows coming from? Shoo, shoo crows! Get out of here!
+      </div>
+      <div>
+        Anyway, this may be illustrated by the following case. Professor Snooze has fallen asleep in the shade provided by some shrubbery in a secluded part of the campus. From a nearby walk I observe this. I also notice that the shrub under which he is reclining is a man-eating plant, and I judge from its behavior that it is about to eat the man Snooze. As I run across to him I see a sign which reads KEEP OFF THE GRASS.Without a qualm I ignore this prohibition and save Snooze's life. Why did I make this (no doubt unconscious) decision? Because the value of saving Snooze's life (or of saving a life) outweighed the value of obeying the prohibition against walking on the grass. Now the choices in a game appear to be radically unlike this choice. In a game I cannot disjoin the end, winning, from the rules in terms of which winning possesses its meaning. I of course can decide to cheat in order to gain the pot, but then I have changed my end from winning a game to gaining money. Thus, in deciding to save Snooze's life my purpose was not "to save Snooze while at the same time obeying the campus rules for pedestrians." My purpose was to save Snooze's life, and there were alternative ways in which this might have been accomplished. I could, for example, have remained on the sidewalk and shouted to Snooze in an effort to awaken him. But precious minutes might have been lost, and in any case Snooze, although he tries to hide it, is nearly stone deaf. There are evidently two distinct ends at issue in the Snooze episode: saving Snooze and obeying a rule, out of respect either for the law or for the lawn. And I can achieve either of these ends without at the same time achieving the other. But in a game the end and the rules do not admit of such disjunction. It is impossible for me to win the game and at the same time to break one of its rules. I do not have open to me the alternatives of winning the game honestly and winning the game by cheating, since in the latter case I would not be playing the game at all and thus could not, a fortiori, win it.
+      </div>
+      <div>
+        Oh no, the crows are getting bigger! Run! I'll tell you more about the definition of a game sometime later! Quickly, run now! Oh god, they're everywhere!
+      </div>
+      <div>
+        Caw caw caw! Caw caw caw caw caw caw caw caw caw caw caw. Caw! Caw! Caw caw caw caw. Caw? Caw caw caw! Caw caw caw caw caw caw caw caw. Caw caw caw caw caw caw caw. Caw caw caw caw caw caw caw caw caw caw caw caw caw caw caw caw caw caw caw caw caw caw caw caw caw. Caw caw caw? Caw caw caw caw? Caw caw caw! Caw caw caw! Caw caw caw caw caw! Caw! Caw caw caw caw caw caw caw caw caw caw caw... Caw caw caw caw caw caw caw caw caw caw caw caw. Caw caw caw caw caw caw caw caw caw caw. Caw caw caw caw caw caw caw caw caw caw caw caw caw caw caw. Caw caw caw caw caw caw caw caw caw. Caw caw caw caw caw caw? Caw caw caw caw caw caw caw caw caw. Caw caw caw caw caw caw caw caw caw caw caw caw caw Caw. caw caw caw caw caw. Caw caw caw caw caw caw caw caw caw caw caw caw caw caw caw caw caw caw caw caw caw caw caw caw caw caw caw caw. Caw caw caw caw caw caw. Caw caw caw caw caw caw caw. Caw caw caw caw caw caw caw caw caw caw caw caw caw. Caw caw caw caw caw caw caw caw caw caw caw caw caw caw caw caw. Caw caw caw caw caw caw caw caw caw caw caw caw caw! Caw! Caw! Caw! Caw! Caw! Caw! CAW! CAW! CAW! CAW! CAW! CAW! CAW! CAW! CAW!
+      </div>
+    </div>
+  </body>
+</html>
