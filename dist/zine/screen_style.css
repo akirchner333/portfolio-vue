@@ -1,8 +1,0 @@
-/* Styles only for the screen. */
-
-.page{
-  border: 1px solid black;
-  display: inline-block;
-  vertical-align: top;
-  position: relative;
-}
