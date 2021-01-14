@@ -12,7 +12,7 @@
 
     <div class="section">
       <div class="number three">3</div>
-      <div class="text">Currently looking for web dev or game design work - <a :href="'mailto:'+email">get in touch</a>!</div>
+      <div class="text">Also I write roleplaying games sometimes!</div>
     </div>
   </div>
 </template>

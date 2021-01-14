@@ -13,6 +13,7 @@ import VueRouter from "vue-router";
 
 import SiteHeader from "./components/SiteHeader.vue";
 import Root from "./components/Root.vue";
+import Visual from "./components/Visual.vue";
 
 import TopChess from "./components/projects/TopChess.vue";
 import TowerTower from "./components/projects/TowerTower.vue";
@@ -21,6 +22,8 @@ import ObjectGet from "./components/projects/ObjectGet.vue";
 import Journey from "./components/projects/Journey.vue";
 import HomeAccess from "./components/projects/HomeAccess.vue";
 import Jokes from "./components/projects/Jokes.vue"
+import TallerThan from "./components/projects/TallerThan.vue"
+import CourtOfFerns from "./components/projects/CourtOfFerns.vue"
 import Construction from "./components/projects/Construction.vue";
 
 Vue.use(VueRouter);
@@ -30,8 +33,8 @@ const personalInfo = {
   lastName: "Kirchner",
   email: "akirchner333+inquiry@gmail.com",
   github: "akirchner333",
-  mastodon: "crime_crab",
-  twitter: "crime_crab",
+  mastodon: "an_alexa_k",
+  twitter: "an_alexa_k",
   itch: 'akirchner',
   tumblr: 'thejhyde',
   location: "Chicago"
@@ -47,6 +50,9 @@ const router = new VueRouter({
     {path: "/projects/journey", component: Journey},
     {path: "/projects/home_access", component: HomeAccess},
     {path: "/projects/jokes4miles", component: Jokes},
+    {path: "/projects/visual", component: Visual},
+    {path: "/projects/court_of_ferns", component: CourtOfFerns},
+    {path: "/projects/taller_than_space", component: TallerThan},
     {path: "/projects/:id", component: Construction},
   ]
 })
@@ -65,7 +71,7 @@ export default {
 
 <style>
 body{
-  background-color: #EEE;
+  background-color: lavender;
   margin: 0;
 }
 
@@ -85,7 +91,7 @@ main{
 }
 
 .content{
-  margin: 50px;
+  margin: 25px 50px;
 }
 
 a:hover{

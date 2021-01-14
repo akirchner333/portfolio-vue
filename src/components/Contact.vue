@@ -13,11 +13,6 @@
           <td>Email</td>
           <td><a :href="'mailto:'+email">{{email}}</a></td>
         </tr>
-        <tr v-if="mastodon">
-          <td><i class="fab fa-mastodon"></i></td>
-          <td>Mastodon</td>
-          <td><a :href="'https://scream.supply/@'+mastodon">@{{mastodon}}</a></td>
-        </tr>
         <tr>
           <td><i class="fab fa-github"></i></td>
           <td>Github</td>
@@ -28,15 +23,15 @@
           <td>Twitter</td>
           <td><a :href="'https://twitter.com/' + twitter">@{{twitter}}</a></td>
         </tr>
-        <tr v-if="tumblr">
-          <td><i class="fab fa-tumblr"></i></td>
-          <td>Tumblr</td>
-          <td><a :href="'https://'+ tumblr +'.tumblr.com/'">{{tumblr}}</a></td>
-        </tr>
         <tr v-if="itch">
           <td><i class="fas fa-gamepad"></i></td>
           <td>Itch.io</td>
           <td><a :href="'https://' + itch + '.itch.io/'">{{itch}}</a></td>
+        </tr>
+         <tr v-if="mastodon">
+          <td><i class="fab fa-mastodon"></i></td>
+          <td>Mastodon</td>
+          <td><a :href="'https://cybre.space/@'+mastodon">@{{mastodon}}</a></td>
         </tr>
       </table>
     </div>

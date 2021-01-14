@@ -8,14 +8,19 @@
       </div>
       <div v-if="links" id = "links">
         <h3>Links</h3>
-        <div v-for="link in links">
+        <div v-for="link in links" v-bind:key="link.url">
           <a v-bind:href="link.url">{{link.text}}</a>
         </div>
       </div>
 
-      <div id="images">
+      <div id="images" v-if="images">
         <h3>Images</h3>
-        <img v-for="image in images" v-bind:src="'images' + url + '/' + image.url" v-bind:title="image.title"/>
+        <img 
+          v-for="image in images" 
+          v-bind:src="'images' + url + '/' + image.url" 
+          v-bind:title="image.title"
+          v-bind:key="image.title"
+        />
       </div>
     </div>
   </div>
