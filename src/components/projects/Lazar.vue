@@ -6,12 +6,12 @@
     v-bind:images="images"
   >
     <div>
-      Lazar dot social is an ongoing project about social media design. Each generation of lazar consists of a temporay social network with some unique or experimental feature. The purpose of Lazar is to explore what's possible for social networks and hopefully widen the design space.
+      Lazar dot social is an ongoing project about social media design. Each generation of lazar consists of a temporary social network with some unique, experimental, or ridiculous features. With Lazar I'm trying to explore what's possible for social networks, to look beyond the currently dominant models and get a glimpse of what could be.
     </div>
     <div>
       <h3>1st Generation: Reacts</h3>
       <div>
-        Users can only react - no posts, only reactions. Users react to existing reactions. Eight unique reactions: happy, sad, neutral, crab, glacier, microphone, obelisk and shield.
+        Users can only react - no posts, only reactions and reactions to reactions. Includes eight unique reactions: happy, sad, neutral, crab, glacier, microphone, obelisk and shield.
       </div>
       <div>
         <img src="images/internet/lazar1_5.png" title="A slide for the G1 Lazar pitch deck"/>

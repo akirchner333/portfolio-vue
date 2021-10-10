@@ -12,6 +12,7 @@
         <button v-on:click="filter = 'programming'" v-bind:class="{active: filter == 'programming'}">Computer Stuff</button>
         <button v-on:click="filter = 'street game'" v-bind:class="{active: filter == 'street game'}">Street Games</button>
         <button v-on:click="filter = 'generative'" v-bind:class="{active: filter == 'generative'}">Generative Art</button>
+        <button v-on:click="filter = 'zine'" v-bind:class="{active: filter == 'zine'}">Zines</button>
         <button v-on:click="filter = 'rpg'" v-bind:class="{active: filter == 'rpg'}">RPGs</button>
 
       </div>
@@ -81,6 +82,9 @@ const projects = [
   {name: "Play the Great Game", url: "https://akirchner.itch.io/play-the-great-game", static: true, tags:  ["game", "rpg"], description: "A tarot poker secrets and powers LARP"},
   {name: "Sleep Game Jam", url: "https://itch.io/jam/sleepy-game-jam", static: true, tags:  ["game", "rpg"], description: "A game jam to for games to play while asleep"},
   {name: "The Parliamentary Procedure Jam", url: "https://itch.io/jam/parliamentary-procedure-jam", static: true, tags:  ["game", "rpg"], description: "A game jam for new and experimental parliamentary procedures"},
+
+  {name: "Long Term Engagement Strategies", url: "https://akirchner.itch.io/in-pursuit-of-long-term-engagement", tags: ["zine", "internet"], description: "14 fictional social networks and how they failed"},
+  {name: "Speaking Without Speaking", url: "https://akirchner.itch.io/speaking-without-speaking", tags: ["zine"], description: "On generative art and not saying what cannot be said"},
 
   // {name: "LARPs", url: "", tags: ["game"], description: "Live Action Roleplaying Games I have been involved with."},
 

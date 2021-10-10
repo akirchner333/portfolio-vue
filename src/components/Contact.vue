@@ -3,9 +3,7 @@
     <h1>Where To Find Me!</h1>
     <div id="content" class="content">
       <div>
-        The best way to get in touch with me is by e-mail, the best way to keep up with my newest projects is on 
-        <template v-if="mastodon">Mastodon</template>
-        <template v-else>Twitter</template>.
+        The best way to get in touch with me is by e-mail, the best way to keep up with my newest projects is on Twitter.
       </div>
       <table>
         <tr>
