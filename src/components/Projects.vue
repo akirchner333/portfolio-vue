@@ -37,6 +37,7 @@
 <script>
 
 const projects = [
+  {name: "Lazar.social", url: "lazar", tags: ["top", "internet", "programming"], description: "A series of experimental social media networks."},
   {name: "Taller Than Space Is Wide", url: "taller_than_space", tags: ["rpg", "top", "internet", "game"], description: "An epistolary time travel RPG played in google sheets."},
   {name: "The Court of Ferns", url: "court_of_ferns", tags: ["rpg", "top", "internet", "game"], description: "Arts and crafts in a surreal bureacracy. A LARP for 0 to many players. "},
   {name: "Top Chess", url: "top_chess", tags: ["programming", "bot", "top", "game", "internet"], description: "Chess centered twitter bots"},
@@ -80,8 +81,6 @@ const projects = [
   {name: "Play the Great Game", url: "https://akirchner.itch.io/play-the-great-game", static: true, tags:  ["game", "rpg"], description: "A tarot poker secrets and powers LARP"},
   {name: "Sleep Game Jam", url: "https://itch.io/jam/sleepy-game-jam", static: true, tags:  ["game", "rpg"], description: "A game jam to for games to play while asleep"},
   {name: "The Parliamentary Procedure Jam", url: "https://itch.io/jam/parliamentary-procedure-jam", static: true, tags:  ["game", "rpg"], description: "A game jam for new and experimental parliamentary procedures"},
-
-
 
   // {name: "LARPs", url: "", tags: ["game"], description: "Live Action Roleplaying Games I have been involved with."},
 

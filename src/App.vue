@@ -25,6 +25,7 @@ import Jokes from "./components/projects/Jokes.vue"
 import TallerThan from "./components/projects/TallerThan.vue"
 import CourtOfFerns from "./components/projects/CourtOfFerns.vue"
 import Construction from "./components/projects/Construction.vue";
+import Lazar from "./components/projects/Lazar.vue";
 
 Vue.use(VueRouter);
 
@@ -53,6 +54,7 @@ const router = new VueRouter({
     {path: "/projects/visual", component: Visual},
     {path: "/projects/court_of_ferns", component: CourtOfFerns},
     {path: "/projects/taller_than_space", component: TallerThan},
+    {path: "/projects/lazar", component: Lazar},
     {path: "/projects/:id", component: Construction},
   ]
 })
