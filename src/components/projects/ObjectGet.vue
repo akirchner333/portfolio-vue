@@ -16,12 +16,13 @@ var links = [
   {url: "https://github.com/akirchner333/ObjectGet", text: "Code on Github"},
 ]
 
-var images = [
-  
-  {url: "objectget_1.jpg", title: ''},
-  {url: "objectget_2.jpg", title: ''},
-  {url: "objectget_3.jpg", title: ''}
-]
+// var images = [
+//   {url: "objectget_1.jpg", title: ''},
+//   {url: "objectget_2.jpg", title: ''},
+//   {url: "objectget_3.jpg", title: ''}
+// ]
+
+var images = false;
 
 export default {
   name: 'ObjectGet',

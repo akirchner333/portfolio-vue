@@ -1,6 +1,6 @@
 <template>
   <div id="contact">
-    <h1>Where To Find Me!</h1>
+    <h1>Contact</h1>
     <div id="content" class="content">
       <div>
         The best way to get in touch with me is by e-mail, the best way to keep up with my newest projects is on Twitter.

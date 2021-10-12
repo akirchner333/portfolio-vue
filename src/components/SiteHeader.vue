@@ -30,6 +30,8 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: lavender;
+    padding: 10px 10%;
   }
 
   #header .name{
@@ -37,8 +39,7 @@ export default {
     display: inline-block;
     font-style: italic;
     font-weight: bolder;
-    font-size: 30px;
-    margin: 0px 20px;
+    font-size: 50px;
     text-decoration: italic;
     text-align: left;
   }
@@ -53,5 +54,11 @@ export default {
   #header .name a{
     text-decoration: none;
     color: black;
+  }
+
+  @media only screen and (max-width: 600px){
+    #header .name{
+      font-size: 30px;
+    }
   }
 </style>

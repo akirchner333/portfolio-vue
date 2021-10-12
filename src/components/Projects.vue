@@ -1,12 +1,12 @@
 <template>
   <div id="projects">
-    <h1>My Projects</h1>
+    <h1>Selected Works</h1>
     <div id="project-list" class="content">
       <div id="filters">
-        Filter: 
-        <button v-on:click="filter = 'top'" v-bind:class="{active: filter == 'top'}">Major Projects</button>
+        <span id="categories">Categories: </span>
+        <button v-on:click="filter = 'top'" v-bind:class="{active: filter == 'top'}">Highlights</button>
         <button v-on:click="filter = 'work'" v-bind:class="{active: filter == 'work'}">Jobs</button>
-        <button v-on:click="filter = 'internet'" v-bind:class="{active: filter == 'internet'}">Internet</button>
+        <button v-on:click="filter = 'internet'" v-bind:class="{active: filter == 'internet'}">Web Based</button>
         <button v-on:click="filter = 'game'" v-bind:class="{active: filter == 'game'}">Games</button>
         <button v-on:click="filter = 'bot'" v-bind:class="{active: filter == 'bot'}">Bots</button>
         <button v-on:click="filter = 'programming'" v-bind:class="{active: filter == 'programming'}">Computer Stuff</button>
@@ -47,11 +47,23 @@ const projects = [
   {name: "Object Get", url: "object_get", tags: ["game", "programming", "street game", "top"], description: "Street game with four teams one object"},
   {name: "Journey To the End of the Night", url: "journey", tags: ["game", "street game", "top"], description: "Massive scale urban street game"},
 
+  {name: "Blaseball Weather Sat", url: "https://twitter.com/BlaseWeatherSat", tags: ["bot", "programming"], description: "A weather forecast bot for blaseball"},
+
   {name: "Visual Art", url: "visual", tags: ["programming", "generative"], descriptions: "Things to look at from various projects"},
+
+  {name: "Long Term Engagement Strategies", url: "https://akirchner.itch.io/in-pursuit-of-long-term-engagement", tags: ["zine", "internet"], description: "14 fictional social networks and how they failed"},
+
+  {name: "The Babylonian Parliament", url: "https://akirchner.itch.io/the-babylonian-parliament", static: true, tags: ["game", "rpg"], description: "A parlimentary procedure for constitutional direct theocracies"},
+  {name: "The Dictionary Play Guide", url: "https://akirchner.itch.io/the-dictionary-play-guide", static: true, tags:  ["game", "rpg"], description: "How to Play Noah Webster's classic 1828 roleplaying game, The Dictionary"},
+  {name: "The Artist's Choice", url: "https://akirchner.itch.io/the-artists-choice", static: true, tags:  ["game", "rpg"], description: "Make bad art and maybe send one of your friends to die on a hot air balloon"},
+  {name: "Lamp RPG Pack", url: "https://akirchner.itch.io/lamp-rpg-pack", static: true, tags:  ["game", "rpg"], description: "11 games I wrote between August and November 2019"},
+  {name: "Play the Great Game", url: "https://akirchner.itch.io/play-the-great-game", static: true, tags:  ["game", "rpg"], description: "A tarot poker secrets and powers LARP"},
+  {name: "Sleep Game Jam", url: "https://itch.io/jam/sleepy-game-jam", static: true, tags:  ["game", "rpg"], description: "A game jam to for games to play while asleep"},
+  {name: "The Parliamentary Procedure Jam", url: "https://itch.io/jam/parliamentary-procedure-jam", static: true, tags:  ["game", "rpg"], description: "A game jam for new and experimental parliamentary procedures"},
 
   {name: "I Need A Picture of A Lobster", url: "https://pictureofalobster.herokuapp.com", static: true, tags: ["programming", "internet", "generative"], description: "Collaborative generative art tool."},
   {name: "The Number", url: "/internet/number.html", static: true, tags: ["programming", "internet", "generative"], description: "There is only one number and we all have to share it"},
-  {name: "What Is A Game?", url: "/internet/whatisagame.html", static: true, tags: ["programming", "internet", "generative"], description: "Bernad Suits' classic essay but a bunch of wiley crows set up shop in it. Darn it!"},
+  {name: "What Is A Game?", url: "/internet/whatisagame.html", static: true, tags: ["programming", "internet", "generative"], description: "Bernard Suits' classic essay but a bunch of wily crows set up shop in it. Darn it!"},
   {name: "Is It Gonna Rain?", url: "https://isitgonnarain.herokuapp.com/", static: true, tags: ["programming", "internet", "generative"], description: "Weather service for fans of Steve Reich"},
   {name: "Lines and Colors", url: "/internet/colors.html", static: true, tags: ["programming", "internet", "generative"], description: "<img src='images/internet/internet_lines.png' height='200px'>"},
   {name: "A Vast Cave", url: "/internet/vastcave.html", static: true, tags: ["programming", "internet", "generative"], description: "Have you ever thought, what if there was a site like twitter except instead of a social network it was a vast cave, returning your own words back to you warped and echoed? Well, now there is."},
@@ -75,15 +87,7 @@ const projects = [
   {name: "Five By Five Bot", url: "https://twitter.com/fivebyfivebot", static: true, tags: ["bot", "programming"], description: " A twitter bot to post every single five by five grid of squares."},
   // {name: "Unplayable Resource Pack Series", url: "", static: true, tags: ["game", "programming"], description: ""},
   {name: "Bedtime Story Bot", url: "https://twitter.com/BedtimeStoryBot", static: true, tags: ["bot", "programming"], description: "A twitter bot which posted a section of The Man Who Was Thursday every evening. Ran from January to August 2014"},
-  {name: "The Babylonian Parliament", url: "https://akirchner.itch.io/the-babylonian-parliament", static: true, tags: ["game", "rpg"], description: "A parlimentary procedure for constitutional direct theocracies"},
-  {name: "The Dictionary Play Guide", url: "https://akirchner.itch.io/the-dictionary-play-guide", static: true, tags:  ["game", "rpg"], description: "How to Play Noah Webster's classic 1828 roleplaying game, The Dictionary"},
-  {name: "The Artist's Choice", url: "https://akirchner.itch.io/the-artists-choice", static: true, tags:  ["game", "rpg"], description: "Make bad art and maybe send one of your friends to die on a hot air balloon"},
-  {name: "Lamp RPG Pack", url: "https://akirchner.itch.io/lamp-rpg-pack", static: true, tags:  ["game", "rpg"], description: "11 games I wrote between August and November 2019"},
-  {name: "Play the Great Game", url: "https://akirchner.itch.io/play-the-great-game", static: true, tags:  ["game", "rpg"], description: "A tarot poker secrets and powers LARP"},
-  {name: "Sleep Game Jam", url: "https://itch.io/jam/sleepy-game-jam", static: true, tags:  ["game", "rpg"], description: "A game jam to for games to play while asleep"},
-  {name: "The Parliamentary Procedure Jam", url: "https://itch.io/jam/parliamentary-procedure-jam", static: true, tags:  ["game", "rpg"], description: "A game jam for new and experimental parliamentary procedures"},
 
-  {name: "Long Term Engagement Strategies", url: "https://akirchner.itch.io/in-pursuit-of-long-term-engagement", tags: ["zine", "internet"], description: "14 fictional social networks and how they failed"},
   {name: "Speaking Without Speaking", url: "https://akirchner.itch.io/speaking-without-speaking", tags: ["zine"], description: "On generative art and not saying what cannot be said"},
 
   // {name: "LARPs", url: "", tags: ["game"], description: "Live Action Roleplaying Games I have been involved with."},
@@ -127,16 +131,17 @@ export default {
   }
 
   #projects li a{
-    font-size: 50px;
+    font-size: 40px;
   }
 
   #projects button{
     background-color: #EEE;
     border-radius: 0;
     border: 1px solid black;
+    cursor: pointer;
     font-size: 14px;
     margin: 0 2px;
-    padding: 2px 8px;
+    padding: 12px 14px;
   }
 
   #project-list{
@@ -148,11 +153,11 @@ export default {
   }
 
   #projects button:nth-child(3n).active{
-    background-color: #add8e6;
+    background-color: #ffc0cb;
   }
 
   #projects button:nth-child(3n+1).active{
-    background-color: #ffc0cb;
+    background-color: #add8e6;
   }
 
   #projects button:nth-child(3n+2).active{
@@ -169,7 +174,7 @@ export default {
     display: block;
   }
 
-  @media only screen and (max-width: 600px){
+  @media only screen and (max-width: 959px){
     #projects li{
       margin-bottom: 5px;
       border-bottom: 1px solid grey;
@@ -181,6 +186,15 @@ export default {
 
     #projects li a{
       font-size: 30px;
+    }
+
+    .description{
+      display: block;
+    }
+
+    #projects button{
+      padding: 10px;
+      margin: 5px;
     }
   }
 </style>

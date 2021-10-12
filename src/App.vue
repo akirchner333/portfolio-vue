@@ -73,7 +73,7 @@ export default {
 
 <style>
 body{
-  background-color: lavender;
+  background-color: white;
   margin: 0;
 }
 
@@ -84,21 +84,12 @@ body{
   color: #2c3e50;
 }
 
-main{
-  /*margin: 50px;*/
-}
-
 #content{
   margin-left: 30px;
 }
 
 .content{
   margin: 25px 50px;
-}
-
-a:hover{
-  font-weight: bold;
-  text-decoration: none;
 }
 
 a:visited, a{
@@ -108,8 +99,8 @@ a:visited, a{
 h1{
   text-align: center;
   font-style: italic;
-  background-color: white;
-  margin: 4px 0;
-  font-size: 50px;
+  background-color: lavender;
+  font-size: 40px;
+  padding: 15px;
 }
 </style>

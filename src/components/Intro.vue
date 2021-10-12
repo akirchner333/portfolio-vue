@@ -2,17 +2,17 @@
   <div id="intro" class="content">
     <div class="section">
       <div class="number one">1</div>
-      <div class="text">Full stack web developer, digital artist, and game designer living in {{location}}.</div>
+      <div class="text">Full stack web developer, digital artist, and analog game designer living in {{location}}.</div>
     </div>
 
     <div class="section">
       <div class="number two">2</div>
-      <div class="text">Interested in new interactions through technology, weird internet things, and big experiences.</div>
+      <div class="text">Creating art with computers in it and art with people in it.</div>
     </div>
 
     <div class="section">
       <div class="number three">3</div>
-      <div class="text">Also I write roleplaying games sometimes!</div>
+      <div class="text">Award winning larpwright.</div>
     </div>
   </div>
 </template>
