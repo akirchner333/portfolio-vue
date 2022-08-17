@@ -9,7 +9,7 @@
       Lazar dot social is an ongoing project about social media design. Each generation of lazar consists of a temporary social network with some unique, experimental, or ridiculous features. With Lazar I'm trying to explore what's possible for social networks, to look beyond the currently dominant models and get a glimpse of what could be.
     </div>
     <div>
-      <h3>1st Generation: Reacts</h3>
+      <h3>1st Generation: Reacts (Aug 3rd - Aug 6th, 2021)</h3>
       <div>
         Users can only react - no posts, only reactions and reactions to reactions. Includes eight unique reactions: happy, sad, neutral, crab, glacier, microphone, obelisk and shield.
       </div>
@@ -21,7 +21,7 @@
       </div>
     </div>
     <div>
-      <h3>2nd Generation: MinMax</h3>
+      <h3>2nd Generation: MinMax (Sep 3rd - Sep 6th, 2021)</h3>
       <div>
         Posts must be below a maximum character length and above a mininum character length. These limits would change every hour, including periods where the maximum exceeded the minimum, preventing posting all together.
       </div>
@@ -33,7 +33,7 @@
       </div>
     </div>
     <div>
-      <h3>3rd Generation: Temperature</h3>
+      <h3>3rd Generation: Temperature (Oct 4th, 2021)</h3>
       <div>
         Posts are sorted based on how close they are to a secret topic, with a prize for whichever user guessed the topic.
       </div>
@@ -44,16 +44,17 @@
       </div>
     </div>
     <div>
-      <h3>4rd Generation: Topics</h3>
+      <h3>4rd Generation: Topics (Jan 29th - Feb 1st, 2022)</h3>
       <div>
-        Every hour a random topic is selected and only posts above a changing threshold are displayed.
+        Every hour a random topic is selected and only posts judged sufficiently on-topic are displayed.
       </div>
       <div>
+        <img src="images/internet/lazar4_2.png" title="The layout of lazar gen 4" />
         <img src="images/internet/lazar4_1.jpeg" title="A topic and relevance threshold" />
       </div>
     </div>
     <div>
-      <h3>5th Generation: Rotation</h3>
+      <h3>5th Generation: Rotation (July 17th - July 23rd, 2022)</h3>
       <div>
         Users are given full control over their posts background color, rotation, and positioning on the page. <a href="/lazar/LA2AR.html">View the state of the site at time of close here</a>.
       </div>
@@ -71,7 +72,7 @@ import Project from "./Project.vue"
 
 var links = [
   {url: "https://lazar.social", text: "lazar.social"},
-  {url: "https://lazardotsocial.tumblr.com/", text: "The lazar tumblr"},
+  {url: "https://lazardotsocial.tumblr.com/", text: "The lazar official tumblr"},
   {url: "https://twitter.com/lazardotsocial", text: "The lazar official twitter"},
 ];
 

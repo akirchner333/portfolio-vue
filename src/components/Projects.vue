@@ -5,7 +5,7 @@
       <div id="filters">
         <span id="categories">Categories: </span>
         <button v-on:click="filter = 'top'" v-bind:class="{active: filter == 'top'}">Highlights</button>
-        <button v-on:click="filter = 'work'" v-bind:class="{active: filter == 'work'}">Jobs</button>
+        
         <button v-on:click="filter = 'internet'" v-bind:class="{active: filter == 'internet'}">Web Based</button>
         <button v-on:click="filter = 'game'" v-bind:class="{active: filter == 'game'}">Games</button>
         <button v-on:click="filter = 'bot'" v-bind:class="{active: filter == 'bot'}">Bots</button>
@@ -39,6 +39,7 @@
 
 const projects = [
   {name: "Lazar.social", url: "lazar", tags: ["top", "internet", "programming"], description: "A series of experimental social media networks."},
+  {name: "How Are We Doing?", url:"https://akirchner.website/images/how_are.html", static: true, tags: ['top', 'internet', 'programming', 'generative'], description: "Charts, graphs, and diagrams taken from the New York Times, with all faces and text programatically blurred out, leaving only the non-specific sense that something is happening."},
   {name: "Taller Than Space Is Wide", url: "taller_than_space", tags: ["rpg", "top", "internet", "game"], description: "An epistolary time travel RPG played in google sheets."},
   {name: "The Court of Ferns", url: "court_of_ferns", tags: ["rpg", "top", "internet", "game"], description: "Arts and crafts in a surreal bureacracy. A LARP for 0 to many players. "},
   {name: "Top Chess", url: "top_chess", tags: ["programming", "bot", "top", "game", "internet"], description: "Chess centered twitter bots"},
@@ -92,8 +93,8 @@ const projects = [
 
   // {name: "LARPs", url: "", tags: ["game"], description: "Live Action Roleplaying Games I have been involved with."},
 
-  {name: "Home Access Health Corporation", url: "home_access", tags: ["work"]},
-  {name: "Jokes4Miles", url: "jokes4miles", tags: ["work"]},
+  //{name: "Home Access Health Corporation", url: "home_access", tags: ["work"]},
+  //{name: "Jokes4Miles", url: "jokes4miles", tags: ["work"]},
   // {name: "", url: "", static: true, tags: [], description: ""},
 ]
 
