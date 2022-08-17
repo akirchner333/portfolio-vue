@@ -1,0 +1,183 @@
+body{
+  background: cornsilk;
+  margin: 0px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 80px;
+  word-wrap: break-word;
+}
+
+h1 a{
+  text-decoration: none;
+}
+
+h2 {
+  text-align: center;
+}
+
+.lazar {
+  color: black;
+  font-weight: heavy;
+  font-style: italic;
+  text-shadow: 0.04em 0.04em #f00, 
+               0.08em 0.08em #0f0, 
+               0.12em 0.12em #00f,
+               0.16em 0.16em lightseagreen,
+               0.20em 0.20em antiquewhite,
+               0.24em 0.24em black;
+}
+
+.interactable-zone{
+  background: white;
+  border: 1px solid black;
+}
+
+/* _______________ HEADER ___________________ */
+.user-bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.user-bar .name{
+  font-weight: bold;
+}
+
+.user-bar .user-buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.user-bar .user-buttons button{
+  margin-left: 20px;
+}
+
+.flash{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.flash div{
+  width: 70vw;
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 20px;
+}
+
+.alert{
+  background: palevioletred;
+}
+
+.notice{
+  background: lightblue;
+}
+
+/* -------------SIGN IN ------------------- */
+.user-form{
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.user-form label{
+  display: inline-block;
+  width: 100px;
+}
+
+.user-form div{
+  margin: 10px;
+}
+
+.sso{
+  display: flex;
+  justify-content: center;
+}
+
+.sso-box{
+  background: white;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+/* ~~~~~~~~~~~~~~~FORMS~~~~~~~~~~~~~~~~~~~ */
+
+.input-area{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.post-form{
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 501;
+  position: relative;
+}
+
+.post-form input[type=number]{
+  width: 50px;
+}
+
+.post-form .styling{
+  display: inline-block;
+  padding: 5px;
+}
+
+.post-form label{
+  font-weight: bold;
+}
+
+/* ~~~~~~~~~~~~ POSTS ~~~~~~~~~~~~~~~~ */
+
+#timeline {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.posts-list{
+  list-style-type: none;
+  padding: 0;
+}
+
+.post-parent{
+  position: static;
+  z-index:  0;
+}
+
+.post{
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 0.5px solid black;
+  border-radius: 10px;
+  width: 90vw;
+  max-width: 1000px;
+  text-align: left;
+  position: relative;
+  z-index: revert-layer;
+  background-color: lightcoral;
+}
+
+.post .link, .post .words, .post .user{
+  position:  relative;
+}
+
+.post .link{
+  text-align: right;
+}
+
+.post .user{
+  padding-left: 15%;
+}
+
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& USERS &&&&&&&&&&&&&&&&&&&&&&&& */
+
+.username{
+  font-size: 80px;
+  word-break: break-all;
+}

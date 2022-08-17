@@ -43,7 +43,26 @@
         <img src="images/internet/trophy.png" title="The trophy for the winner of Lazar G3" />
       </div>
     </div>
-
+    <div>
+      <h3>4rd Generation: Topics</h3>
+      <div>
+        Every hour a random topic is selected and only posts above a changing threshold are displayed.
+      </div>
+      <div>
+        <img src="images/internet/lazar4_1.jpeg" title="A topic and relevance threshold" />
+      </div>
+    </div>
+    <div>
+      <h3>5th Generation: Rotation</h3>
+      <div>
+        Users are given full control over their posts background color, rotation, and positioning on the page. <a href="/lazar/LA2AR.html">View the state of the site at time of close here</a>.
+      </div>
+      <div>
+        <img src="images/internet/lazar5_1.png" title="The g5 lazar site" />
+        <img src="images/internet/lazar5_3.png" title="Another image of the g5 lazar site" />
+        <img src="images/internet/lazar5_2.png" title="Some advice on how to post, rendered completely illegible" />
+      </div>
+    </div>
   </project>
 </template>
 
@@ -52,7 +71,8 @@ import Project from "./Project.vue"
 
 var links = [
   {url: "https://lazar.social", text: "lazar.social"},
-  {url: "https://twitter.com/lazardotsocial", text: "The lazar.social twitter account"},
+  {url: "https://lazardotsocial.tumblr.com/", text: "The lazar tumblr"},
+  {url: "https://twitter.com/lazardotsocial", text: "The lazar official twitter"},
 ];
 
 var images = false;
