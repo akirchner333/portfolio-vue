@@ -1,4 +1,4 @@
-e<template>
+<template>
   <div id="project">
     <h1>{{header}}</h1>
     <div class="content">
@@ -10,6 +10,9 @@ e<template>
         <h3>Links</h3>
         <div v-for="link in links" v-bind:key="link.url">
           <a v-bind:href="link.url">{{link.text}}</a>
+          <span v-if="link.comment">
+            - {{link.comment}}
+          </span>
         </div>
       </div>
 

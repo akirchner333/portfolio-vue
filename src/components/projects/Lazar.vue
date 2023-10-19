@@ -56,12 +56,23 @@
     <div>
       <h3>5th Generation: Rotation (July 17th - July 23rd, 2022)</h3>
       <div>
-        Users are given full control over their posts background color, rotation, and positioning on the page. <a href="/lazar/LA2AR.html">View the state of the site at time of close here</a>.
+        Users are given full control over their posts background color, rotation, and positioning on the page. <a href="/lazar/LA2AR.html">View the state of the site at time of close here</a>. You can read an in-depth essay on gen 5 on <a href="https://at.tumblr.com/lazardotsocial/lazar-dot-social-gen-5-rotate/yn45b9h754e7">the lazar tumblr</a>.
       </div>
       <div>
         <img src="images/internet/lazar5_1.png" title="The g5 lazar site" />
         <img src="images/internet/lazar5_3.png" title="Another image of the g5 lazar site" />
         <img src="images/internet/lazar5_2.png" title="Some advice on how to post, rendered completely illegible" />
+      </div>
+    </div>
+    <div>
+      <h3>6th Generation: Ply and Reply (October 9th - October 15th, 2022)</h3>
+      <div>
+        Users can "ply" posts, making an older post a reply of their new post. This allows conversations to move both up and down and for disparate threads to be linked together. Lazar gen 6 also featured the complete scripts of Macbeth and the Tempest, converted into a social media feed. You can read an in-depth essay on gen 6 on <a href="https://at.tumblr.com/lazardotsocial/lazar-gen-6-plies-and-replies/k2mgxb2n6wit">the lazar tumblr</a>.
+      </div>
+      <div>
+        <img src="images/internet/lazar6_3.png" title="An exchange on lazar between ORCHID_MAID and STAGE DIRECTIONS" />
+        <img src="images/internet/lazar6_2.png" title="The posts of the stage directions user" />
+        <img src="images/internet/lazar6_4.png" title="A slide from the lazar gen 6 introduction, depicting two visual metaphors for plies and replies" />
       </div>
     </div>
   </project>
@@ -72,8 +83,8 @@ import Project from "./Project.vue"
 
 var links = [
   {url: "https://lazar.social", text: "lazar.social"},
-  {url: "https://lazardotsocial.tumblr.com/", text: "The lazar official tumblr"},
-  {url: "https://twitter.com/lazardotsocial", text: "The lazar official twitter"},
+  {url: "https://lazardotsocial.tumblr.com/", text: "The lazar official tumblr", comment: "essays about and inspiration for lazar."},
+  {url: "https://twitter.com/lazardotsocial", text: "The lazar official twitter", comment: "news and announcements for lazar."},
 ];
 
 var images = false;

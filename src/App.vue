@@ -26,6 +26,7 @@ import TallerThan from "./components/projects/TallerThan.vue"
 import CourtOfFerns from "./components/projects/CourtOfFerns.vue"
 import Construction from "./components/projects/Construction.vue";
 import Lazar from "./components/projects/Lazar.vue";
+import Invisible from "./components/projects/Invisible.vue";
 
 Vue.use(VueRouter);
 
@@ -55,6 +56,7 @@ const router = new VueRouter({
     {path: "/projects/court_of_ferns", component: CourtOfFerns},
     {path: "/projects/taller_than_space", component: TallerThan},
     {path: "/projects/lazar", component: Lazar},
+    {path: "/projects/invisible_networks", component: Invisible},
     {path: "/projects/:id", component: Construction},
   ]
 })

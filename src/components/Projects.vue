@@ -40,6 +40,7 @@
 const projects = [
   {name: "Lazar.social", url: "lazar", tags: ["top", "internet", "programming"], description: "A series of experimental social media networks."},
   {name: "How Are We Doing?", url:"https://akirchner.website/images/how_are.html", static: true, tags: ['top', 'internet', 'programming', 'generative'], description: "Charts, graphs, and diagrams taken from the New York Times, with all faces and text programatically blurred out, leaving only the non-specific sense that something is happening."},
+  {name: "Invisible Networks", url: "invisible_networks", tags: ["top", "internet", "zine"], description: "Pitch decks and commentary on fictional social networks."},
   {name: "Taller Than Space Is Wide", url: "taller_than_space", tags: ["rpg", "top", "internet", "game"], description: "An epistolary time travel RPG played in google sheets."},
   {name: "The Court of Ferns", url: "court_of_ferns", tags: ["rpg", "top", "internet", "game"], description: "Arts and crafts in a surreal bureacracy. A LARP for 0 to many players. "},
   {name: "Top Chess", url: "top_chess", tags: ["programming", "bot", "top", "game", "internet"], description: "Chess centered twitter bots"},
@@ -51,8 +52,6 @@ const projects = [
   {name: "Blaseball Weather Sat", url: "https://twitter.com/BlaseWeatherSat", tags: ["bot", "programming"], description: "A weather forecast bot for blaseball"},
 
   {name: "Visual Art", url: "visual", tags: ["programming", "generative"], descriptions: "Things to look at from various projects"},
-
-  {name: "Long Term Engagement Strategies", url: "https://akirchner.itch.io/in-pursuit-of-long-term-engagement", tags: ["zine", "internet"], description: "14 fictional social networks and how they failed"},
 
   {name: "The Babylonian Parliament", url: "https://akirchner.itch.io/the-babylonian-parliament", static: true, tags: ["game", "rpg"], description: "A parlimentary procedure for constitutional direct theocracies"},
   {name: "The Dictionary Play Guide", url: "https://akirchner.itch.io/the-dictionary-play-guide", static: true, tags:  ["game", "rpg"], description: "How to Play Noah Webster's classic 1828 roleplaying game, The Dictionary"},
