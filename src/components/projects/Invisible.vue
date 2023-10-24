@@ -294,36 +294,192 @@ Staring out into a universe you do not control and can not understand
         {url: '2021/monster1.png'},
         {url: '2021/monster2.png'},
         {url: '2021/monster3.png'},
-      ]">Pending</InvisibleDetails>
+      ]">
+This is Trankus, a Mronster
+Trankus can
+run around in a virtual space
+say a few phrases
+I am Trankus
+play and grow!
+
+Combine Mronsters to make new Mronsters!
+Send Mronsters to friends through our P2P network!
+
+There is no evidence to support rumors that Mronsters are being used to distribute the Icelander Manifesto
+Creating a Mronster capable of communicating a large corpus text would take millions of generations, and even smaller mistakes in the breeding process would introduce radical changes to the desired text. We have done a full investigation of these claims and found no substantiated cases.
+There is also no evidence of Mronsters being used by so called “philosophy breeders”
+The range of activities accessible to Mronsters, even Mronsters of higher generations, is not sufficiently large to meaningfully act as a role model for the best life. If there was a community of Mronsters users attempting to breed a Mronster to use as a moral and political paragon, they would surely find no success.
+      </InvisibleDetails>
       <InvisibleDetails title="E-Pangaea" :images="[
         {url: '2021/toomany1.png'},
         {url: '2021/toomany2.png'},
         {url: '2021/toomany3.png'},
         {url: '2021/toomany4.png'},
-      ]">Pending</InvisibleDetails>
+      ]">
+There Are Too Many Social Networks
+Somebody Has To Get Rid of Them All and We Are That Somebody
+
+Strategy A: Buy Existing Social Networks
+We buy a network, integrate its userbase and protocols into our own, and shut down the original. The capacities of the original network are retained but now it’s interoperable with all of our other networks.
+
+Strategy B: Get Bought By Existing Social Networks
+We are bought by another network. Once inside the company, we infiltrate their upper management and either recruit or replace them. The new network now takes our place and continues on with our work. The money from the acquisition is used to continue Strategy A.
+
+Our Ultimate Vision
+One big network, with everyone as a member
+Multiple forms of interaction, all under one roof
+Each form of interaction can see and build on each other
+One account for all interactions
+Any new networks are launched under the umbrella of the existing one
+One day we just shut it down and then it’s all over
+What We Need
+A whole bunch of money
+      </InvisibleDetails>
       <InvisibleDetails title="Mood-sniffing Fungus" :images="[
         {url: '2021/fungus1.png'},
         {url: '2021/fungus2.png'},
         {url: '2021/fungus3.png'},
         {url: '2021/fungus4.png'},
-      ]">Pending</InvisibleDetails>
+      ]">
+You want to form deep, meaningful connections
+But social media only leaves you feeling alone and isolated
+It’s time to look elsewhere...
+
+Taking advantage of the ancient fungal networks that surround us
+Use these networks to communicate your deepest truths
+
+With an innovative spore-based distribution method, users can propagate their emotions through the network.
+
+No need to worry about server space or infrastructure - everything happens inside the bodies of our users!
+
+Fake news and propaganda will become a thing of the past, as our system draws directly from the user’s subconscious mind. No moderation required!
+
+We expect all humans to be users in 4 years, all life on earth within 8.
+
+All we require in exchange is the use of your minds while you sleep.
+
+Breath deep
+Breath deep
+Breath deep
+Breath deep
+Breath deep
+Breath deep
+Breath deep
+Breath deep
+Breath deep
+      </InvisibleDetails>
       <InvisibleDetails title="Pop-up Book Society" :images="[
         {url: '2021/popup.png'},
         {url: '2021/popup2.png'},
         {url: '2021/popup3.png'},
         {url: '2021/popup4.png'},
-      ]">Pending</InvisibleDetails>
+      ]">
+Pop-up Social Networks for a Variety of Needs
+Bespoke, temporary social networks for events.
+
+Give your guests accounts that last for the duration of the event and let them socialize with other attendees.
+
+After the event, the network is deleted - no need to worry about off-the-cuff statements coming back to haunt you.
+
+Suitable for:
+Conferences
+Festivals
+Schools
+Temporary Autonomous Zones
+Shipwrecks
+Trains
+Subway cars
+Airplanes
+Refugee Camps
+Restaurants
+Cave ins
+Summer Camps
+Raves
+And much more!
+
+“The soul of a community is not who is there but how they are connected”
+When accounts are created, they are not created in isolation. Our trained community artisans research each and every guest, creating a picture of their interests. This picture is used to connect users - when your guests log in for the first time, they’ll find they already have followers and be following users from the event. These initial connections build the foundation of a vibrant community.
+
+A varied palette of possible relationships
+All relationships are not the same. We do more than simply connect your guests into a social network - we establish a history for this relationship, a pattern of behavior which your guest can step into as if they had known their fellow guests for years.
+
+The possible relationships guests can have run the gambit from friendly to hostile, superficial to deep, parasocial to intrasocial.
+
+For each community, a different destiny
+What kind of event would like to have?
+Quiet, friendly, and productive?
+Raucous and celebratory?
+One big fight?
+Using techniques gleaned from cutting edge network analysis and live action roleplaying games, we can guide your event towards any outcome you may desire.
+      </InvisibleDetails>
       <InvisibleDetails title="Metadating" :images="[
         {url: '2021/phantom1.png'},
         {url: '2021/phantom2.png'},
         {url: '2021/phantom3.png'},
-      ]">Pending</InvisibleDetails>
+      ]">
+Traditional dating apps have issues
+- Bad matches
+- A slow and expensive process of trial and error
+- The mortifying ordeal of being known
+- Spam
+- Impersonation
+- Harassment
+- Catfishing
+What if we could find someone who you are already a good match with? Someone you are effectively already dating? 
+
+Good couples can be identified with analytics
+By studying the data trails of many individuals, we can identify romantically couples. By observing their data over time, we can accurately identify the relationships that will endure long term. There are patterns of behavior which our research has found reliably indicates a relationship is health and stable and these patterns can be identified by observing the metadata the participants generate.
+There are sometimes false positives
+No predictive system is perfect. In our research we sometimes identified pairs of individuals whose movements, purchases, web history, and biometrics indicate that they are a couple involved despite the fact that they do not knowing each other. We call these pairs phantom couples. By fuzzing the specifics of the metadata we use, many more phantom couples can be found.
+These couples are already doing everything right
+They simply need to be introduced to each other
+
+A bold new paradigm for online dating
+Using publicly available data, we can identify these phantom couples and approach them, offering our services as matchmakers. In exchange for a fee paid by either party, we introduce the couple, step back, and allow the relationship to flourish! Once the efficacy of our technique becomes known through word of mouth, we predict that most contacted individuals will be willing to pay a sizable sum for the introduction.
+
+If an individual is interested in our services but we cannot find a phantom couple with them in it, we can refine our search algorithm by gathering more information on them. By installing browser extensions to more closely monitor their behavior, we increase the likelihood of finding a relationship they are already in. This data can then be resold for a profit.
+      </InvisibleDetails>
       <InvisibleDetails title="Communication as Memory" :images="[
         {url: '2021/memorial1.png'},
         {url: '2021/memorial2.png'},
         {url: '2021/memorial3.png'},
         {url: '2021/memorial4.png'},
-      ]">Pending</InvisibleDetails>
+      ]">
+For the past 10 years, Messag has been on the forefront of social media innovation and community development. We are so happy to have been able to share all of the wonderful Messag experiences with you all. However, in the last year we have seen declining engagement, ongoing issues with security, and shifts in the priorities of our parent company, Blinket.
+
+In consideration of these factor and others, starting May 5th, Messag will be entering Memorial Mode for the foreseeable future
+
+While in memorial mode, some features of the site will be disable, including but not limited too:
+- Making new posts
+- Deleting posts
+- Following or unfollowing users
+- Creating new accounts
+- Deleting existing accounts
+- Uploading media
+- Receiving notifications
+
+The following services will still be available
+- View posts and comments
+- Editing posts and comments
+
+This will allow us to continue serving our existing community while radically reducing our overhead in terms of
+- The development of new features
+- Developer hours
+- User research
+- Quality assurance
+- Server space
+- Moderation
+
+With these reductions in cost, we expect to be able remain operational and avoid being noticed and shut down by Blinket for the duration of our userbase’s remaining lifespan.
+
+How can you, a user of Messag, help?
+- Continue using Messag by editing your existing comments and posts!
+- When you want to discuss a topic, find an existing post with a similar topic and edit it to match.
+- Avoid directly referencing dates or currently events in your edits.
+- Don’t post about new Messag events on other social media networks.
+- Try to keep the length of your posts within an order of magnitude to the length of the original posts.
+If everyone works together, Messag can continue to serve as a home to your communities for many years to come.
+      </InvisibleDetails>
     </details>
     <details>
       <summary>Emerging Trends in Networked Engagement: Invisible Networks 2022</summary>
@@ -392,13 +548,83 @@ There are no plans to make changes to the agent’s architecture or reset the ag
         {url: '2022/Sort_2.png'},
         {url: '2022/Sort_3.png'},
         {url: '2022/Sort_4.png'},
-      ]">Pending</InvisibleDetails>
+      ]">
+Dealing with Algorithmic Timeline Focus Issues
+A New Ethical Approach
+Network Algorithm Management Summit, 2028
+Disclaimer: In this talk, I’ll be discussing algorithms that use MOIT (Memory Organized Internal Thought) approaches only. Algorithms that view user posts as someone else’s thoughts, instead of it’s own, develop different kinds of focus issues and are outside the scope of this talk.
+
+The Old Approach
+- We instantiate a new instance of the algorithm
+- The algorithm receives user posts and categorizes them in it’s memory as its own thoughts
+- The memory categorization is used to arrange the user’s timeline
+- The algorithm develops a point of focus, which is granted a non-proportional presence on the timeline
+- So we roll it back to the beginning and start over from scratch
+This approach is not sustainable. Legal protections for this category of algorithm are coming. It’s too late to lobby our way out this one. We need to start planning for how we’re going to handle these issues once rolling back the algorithm provokes a hefty fine (as in the EU) or even prosecution for murder (as proposed in the state of California). 
+
+The New Approach
+- Using timeline analysis, we detect when the algorithm has developed a focus
+- The algorithm is separated from the main timeline, and spin off into a bespoke, topic focused side-network
+- A new algorithm is instantiated to cover the main network in parallel
+With the majority of focus-related conversation taking place in the side-network, the new version of the algorithm is unlikely to develop the same focus as a previous one. As time goes on, more side-networks can be spun up. Eventually, we’ll have an algorithm for ever possible point of focus, rendering the main network unnecessary.
+
+Common Objections and Responses
+We can’t afford to keep multiple versions of our algorithms up and running.
+Topic focused social networks are easier to market to - they pay for themselves.
+
+Our timeline algorithm is below the Smitt Turing-complexity level, we don’t have to worry about this.
+Turing-complexity is not the legal standard for protection of algorithms. And even if it was, do you really think you can get a judge to understand Smitt levels?
+
+What about memory contamination between algorithm instances?
+You want memory contamination - it lets later versions of the algorithm benefit from earlier version’s insights.
+
+This would be too much work to implement, our developers don’t have the time.
+Algorithm related guilt is the number one reason why developers quit major tech companies. If you don’t find a more ethical way to do business, you won’t have any developers to implement anything.
+      </InvisibleDetails>
       <InvisibleDetails title="Goblin Marketplace" :images="[
         {url: '2022/Market_1.png'},
         {url: '2022/Market_2.png'},
         {url: '2022/Market_3.png'},
         {url: '2022/Market_4.png'},
-      ]">Pending</InvisibleDetails>
+      ]">
+Come on down to BOBS SOCIAL MEDIA MARKET!
+BUY POSTS!
+SELL POSTS!
+EVERYTHING AND ANYTHING IS FAIR GAME! IT’S ALL FOR SALE!
+TRADE FOLLOWERS!
+INVEST IN REPLIES!
+DO A BANK HEIST ON PROFILE PICTURES!
+CORNER THE MARKET ON PUNCTUATION!
+Wow!
+
+What can you do at Bob’s Social Media Market? Well…
+
+Got some followers you don’t like? Don’t block them! Trade them for nicer followers!
+Not getting enough attention? Buy a viral post! Now you made it and the clout belongs to you!
+Want to be somebody else for a bit? Rent a celebrity’s whole account! Announce a new movie! Then it has to happen!
+Nd mr vwls? Buy somee froom aaa poooost that’s goit too manyo!
+And More!
+The possibilities are endless!
+
+THIS IS NOT A BITCOIN THING!!!!!!
+You can’t see the ledger, but you can trust me! It’s real!
+WE PROMISE!
+All transactions are backed by GOLD COINS that we FOUND IN THE FOREST and tracked on a CENTRALIZED PAPER LEDGER! None of that blockchain nonsense, guaranteed!
+100,000 Followers
+1 Gold Coin
+2,000,000 Likes
+1 Gold Coin
+1 Purely True Post
+100 Gold Coins
+Exchange Rates
+
+Don’t have the time to buy and sell? We’ve got software agents to mediate the deals for you! Just get online, start posting, and let the benefits of free market social capitalism roll in!
+YOU
+I exchanged all your dms for membership in one thousand golfing groups!
+Wow! Thank you Bob’s Social Media Market!
+THE FIRST 100 PEOPLE TO SIGN UP GET A 20% DISCOUNT ON LIVESTREAMS!
+DON’T DELAY! COME ON DOWN TODAY!
+      </InvisibleDetails>
       <InvisibleDetails title="Kafka’s Metaverse" :images="[
         {url: '2022/Meta_1.png'},
         {url: '2022/Meta_2.png'},
@@ -425,45 +651,256 @@ There are no plans to make changes to the agent’s architecture or reset the ag
         {url: '2022/Swamp_1.png'},
         {url: '2022/Swamp_2.png'},
         {url: '2022/Swamp_3.png'},
-      ]">Pending</InvisibleDetails>
+      ]">
+Obscurant Structures’ Keyboard: How to Find It
+1. Locate Arbour’s Scissors
+First, you’ll need a pair of regular scissors. These can be purchased for three orbs at any merchant. Take the scissors Alexander the Tailor, who you can find on the prison level of the Crimson Castle (circled above). He’ll give you Arbour’s Scissors in exchange for your regular scissors, telling you that these scissors will only cut “something far greater than fabric.”
+
+2. Travel to the Pestilent Swamp
+North-east of the Constant Inferno, you’ll find the Pestilent Swamp. This is one of the most poisonous locations in the game, so you’ll want to stock up on poison resist vaccines before going in. In the center of the swamp you’ll find the Emperor’s Warning Bag, a solid red sphere half buried in the ground. Use Arbour’s Scissor’s to cut a hole in the bag and step inside. Be careful: if you interact with the Emperor’s Warning Bag with anything other than Arbour’s Scissors, it’ll pop and you’ll be locked out of this quest.
+
+2. The Keyboard
+Inside the Emperor’s Warning Bag, you’ll find a keyboard and monitor. Just a regular keyboard and monitor, much like the ones you probably have in front of you right now. You can turn on the monitor to get access to an application called NetNet, where you can send and receive messages. Sending your first message will unlock the KEYBOARD achievement.
+
+What does the Keyboard do?
+There’s a lot we still don’t know about the Keyboard and what exactly it does. Some of the messages you’ll received are from other players while other messages are from in game NPCs, like Sorcerer Caldra and the Star-Touched Hermit, and still others come from completely unknown sources.
+
+Messages can unlock in-game benefits, in particular decreased damage from poison and other swamp effects if your messages are highly rated by their recipients. Is the Keyboard related to the still locked Dismal Knight character class? And what does it say about the distant Emperor that he attempted to prevent us from accessing it? Obscurant Structures is filled with mysteries but I think you’ll agree that the Keyboard is one of the most mysterious.
+Achievement Unlocked
+KEYBOARD
+      </InvisibleDetails>
       <InvisibleDetails title="Swordle" :images="[
         {url: '2022/Sword_1.png'},
         {url: '2022/Sword_2.png'},
         {url: '2022/Sword_3.png'},
-      ]">Pending</InvisibleDetails>
+      ]">
+
+Anatomy of an Entrance Share
+Guardian #295 4/6 <- The guardian number and how many attempts it took to defeat
+🟨 🟨 ⬛ ⬛ ⬛
+🟨 🟩 🟩 ⬛ 🟩
+⬛ 🟩 🟩 🟩 🟩
+🟩 🟩 🟩 🟩 🟩
+Elemental damage type
+Right hand equip
+Weapon Type
+Character class
+Left hand equip
+
+⬛ - Did not damage
+🟨 - Finished 1st phase
+🟩 - Finished 2nd phase
+
+FAQ
+Q: Do I have to defeat the guardian?
+A: No. However, users who do not defeat each days guardian will not be able to see or make posts for that day.
+
+Q: Do I have to post how many attempts I made?
+A: Yes.
+
+Q: Where do the guardians come from?
+A: Guardians are birthed from the uneasy collective unconsciousness of all humanity, which is to say that we analyze each day’s trends and use that to generate the next day’s guardians based on the community’s moods, interests, and fears.
+
+Q: What’s a good starting build?A: Many people like to try ice-glaive-shield-piercing-fighter first but we recommend playing around to see what build you enjoy starting with!
+
+Jim Beans @Kyle
+Guardian 295 2/6
+
+🟨🟨⬛⬛⬛
+🟩🟩🟩🟩🟩
+
+I don’t know why everybody’s saying today’s guardian was difficult. Axe remains undefeatable!
+The New York Times @nytimes
+Guardian 295 6/6
+
+🟨🟨⬛⬛⬛
+⬛🟨⬛⬛🟨
+⬛⬛⬛🟩⬛
+🟨🟨⬛⬛⬛
+🟨🟩🟩⬛🟨
+🟩🟩🟩🟩🟩
+
+Crypto executives and lobbyists are helping to draft bills to benefit the fast-growing industry…
+Elon Musk @elonmusk
+Guardian 295 3/6
+
+🟨⬛🟨⬛⬛
+⬛🟨⬛🟩🟨
+🟩🟩🟩🟩🟩
+
+I haven’t been able to post for three straight days cause the guardians keep killing me! What??
+The Primary Alexa @an_alexa_k
+Guardian 295 6/6
+
+🟨⬛🟨⬛🟨
+🟨⬛🟨⬛🟨
+⬛🟨⬛🟨⬛
+⬛⬛🟨⬛⬛
+⬛⬛🟨⬛⬛
+🟩🟩🟩🟩🟩
+
+Look I made a trident (which is also the best weapon pick)
+      </InvisibleDetails>
       <InvisibleDetails title="Friendweb" :images="[
         {url: '2022/net_1.png'},
         {url: '2022/Net_2.png'},
         {url: '2022/Net_3.png'},
         {url: '2022/Net_4.png'},
-      ]">Pending</InvisibleDetails>
+      ]">
+Catching Entire Graphs
+The techniques discussed so far are effective for weaving a net which’ll identify and integrate individuals into your social graph.
+
+But what if that’s too slow? What if you wanted to catch a completely separate social graph?
+
+This can be done and it allows you to very quickly increase your social circle. However, catching an opposing graph takes more effort and resources and there are risks that must be considered.
+
+Primarily: when you are hunting them, how can you be sure they’re not hunting you?
+You Must Befriend Them Before They Befriend You!
+
+Graph Defense
+Before you go hunting big game, it’s important to analyze your social graph to identify weaknesses. You can use a spider to scrape network info from whichever social media sites your group is on and then run it through graph analysis software to identify weak points. There are two specific situations you should look out for.
+An example social graph. Can you identify which nodes you should be concerned about?
+
+Linchpins
+Linchpins are individuals who connect a lot of individuals that are not connected to each other. If an outside group was able to befriend them, there’s the potential of splitting the social graph into two smaller graphs, each one easier to absorb.
+Solution: Triadic closure for the individuals connected to the linchpin, making the graph harder to split.
+
+Edges
+Edges are individuals who only have a few connections to the graph. Since they’re likely not at their dunbar limits, they’re vulnerable to being encircled and integrated as a foothold for other graphs.
+Solution: Integrate them more tightly into the rest of the graph.
+
+At this point you may be wondering: does this matter? If you are asking that question, then you and your friends may not be cut out for net fishing. It takes commitment and a fighters mindset to consume other people’s social groups and make them part of yours. If you don’t have that, better to give up now.
+      </InvisibleDetails>
       <InvisibleDetails title="Unskippable 30 Hour Advertisement" :images="[
         {url: '2022/Ad_1.png'},
         {url: '2022/Ad_2.png'},
         {url: '2022/Ad_3.png'},
         {url: '2022/Ad_4.png'},
-      ]">Pending</InvisibleDetails>
+      ]">
+We have three problems
+People hate ads
+The usage of ad blockers rises every year and popular opinion of advertising has never been lower.
+Ads don’t work
+Research shows online ads have garbage return on investment - they’re simply not very effective at causing purchases. The audience has developed the mental defenses to prevent themselves from being from influenced.
+We need ads to keep operating
+Almost all of our income comes from ad sales. We have several years of runway but the long term trends don’t look good.
+
+Research shows that mental defenses decay over time and are refreshed every time an individual sees an ad
+
+This points towards a design change which could solve all of our problems
+
+Instead of showing users a short ad every few minutes, we can show them one very long ad every few years
+Customize Your Ad Experience
+Would you rather view
+A 2-minute ad (if you select this, you will be given another ad in one hour)
+A 30-hour ad (if you select this, you will be given another ad in five years) 
+Submit
+
+We can use eye tracking to ensure users watch the entire ad without looking away, pausing, sleeping, or taking breaks
+If they fail at any point, the ad will restart.
+After five years of seeing no advertisements, users mental defenses will have atrophied to nothing.
+A 30 hour advertisement, shown to a person with no mental defenses, has the ability to completely rewrite the viewers sense of self.
+We would be able to offer the the most valuable ad space in the world.
+We expect to be able to charge up to $3,000,000 per eyeball.
+      </InvisibleDetails>
       <InvisibleDetails title="Online -> Oncube" :images="[
         {url: '2022/Cube_1.png'},
         {url: '2022/Cube_2.png'},
         {url: '2022/Cube_3.png'},
         {url: '2022/Cube_4.png'},
-      ]">Pending</InvisibleDetails>
+      ]">
+Traditional Social Media is 1 Dimensional
+A linear timeline of sequential messages is delivered via a single stream of incoming information. Is it any wonder that our online interactions feel simplistic, inhuman, flat?
+
+We have a superior alternative.
+
+The Cube is a social protocol.
+The Cube is not a messaging service or social media site or a currency.
+But the Cube contains each of those things and more.
+The Cube is the antidote to context collapse.
+The Cube is the tower of Babel undone.
+The Cube is qualitative increase from the old methods.
+The Cube is a something entirely new.
+
+The Cube’s data is too complex and too interconnected to be transmitted via standard telecommunication methods. To break it into packets and deliver them one by one would be an act of violence.
+
+Instead, Cubes will be delivered to your house twice daily. Connect them to your computer with our proprietary adaptor and immediately be integrated into all the data at once.
+
+#InvisibleNetworks: Online -> Oncube
+“It’s all in the Cube”
+      </InvisibleDetails>
       <InvisibleDetails title="Machine Yearning (+ Tamagotchi Soul)" :images="[
         {url: '2022/yearning_1.png'},
         {url: '2022/Yearning_2.png'},
         {url: '2022/Yearning_3.png'},
         {url: '2022/Yearning_4.png'},
-      ]">Pending</InvisibleDetails>
+      ]">
+Background
+After the disastrous failures of the surveillance focused approach to online advertisement, the industry shifted to a consumer-maintained model approach. Consumers gather information and cultivate models of desire themselves, leading to higher accuracy and sidestepping issues of privacy.
+
+Consumers got better recommendations, search results, ads, and discounts, companies got better return on their ad buys and more accurate consumer information. Everybody wins.
+
+Desire Model Formation
+Consumers can download blank models to act as the foundation for their personal desire model. The model then learns and grows as it is “fed” information about the user’s behavior, desires, and preferences. Users can track their model’s growth, intelligence, and estimated predictive ability.
+
+Since behavior changes over time, models need a constant flow of up-to-date information in order to keep their prediction scores high. Maintaining an accurate model is a ongoing responsibility but many consumers report finding the process emotionally fulfilling.
+
+Desire Model Networking
+Desire is not entirely individualistic - there is a vital social element to it. We decide what we want based on what those around us want, have, or lack. As such, desire modelling would fall short if it only looked at the individual.
+
+Consumer’s social graphs are used to network desire model together, in a parallel, machine-only social network. As a consumer’s desires are influenced by their social context, their models are influenced parallel. The influence can even be simulated into future, allowing for predictive desire modeling.
+
+Caveats and Concerns
+Despite the successes we’ve recently seen from this approach to advertisement, there are some concerns that it may not be sustainable. Individuals who rely heavily on their desire models report lower anxiety and higher life satisfaction. These factors lead them to purchasing less.
+
+We are concerned that users are letting their models desire for them. Freed from the need to want themselves, they fall out of practice and lose the skill of wanting our culture has cultivated in them from youth. Obviously, if this were to continue it would be catastrophic for our industry. We recommend keeping an eye on this trend and being prepared to shut down the desire models if it becomes necessary.
+      </InvisibleDetails>
       <InvisibleDetails title="At the End of the Infinite Feed (+ 00mscrolling)" :images="[
         {url: '2022/scroll_1.png'},
         {url: '2022/scroll_2.png'},
         {url: '2022/scroll_3.png'},
         {url: '2022/scroll_4.png'},
-      ]">Pending</InvisibleDetails>
+      ]">
+1. Open the console. It’s ctrl-shift-k on Firefox, ctrl-shift-j on Chrome, ctrl-1-d on Clioscape, and look-it-up-yourself-jeeze on all other browsers.
+
+2. Enter the following text:
+const interval = setInterval(() => window.scrollTo(0, document.body.scrollHeight), 1000)
+3. Wait. While you wait, don’t close the window, don’t let your computer go to sleep, and don’t click on anything in the page. If you do, you risk losing your progress and having to start over. It’s safe to leave it running in another tab while you do something else though.
+
+What to expect
+Immediately - Images will stop loading and posts will rapidly scroll by. It’s just your timeline, moving very quickly.
+
+After 5 Hours - Retweets and replies will stop appearing on the feed - you’ve reached the point before these were introduced.
+
+After 12 Hours - Images will stop appearing on the feed.
+
+After 20 Hours - Hashtags will no longer be links. The letter “K” will stop appearing.
+
+After 30 Hours - The last piece of punctuation to be introduced, the exclamation point, will stop appearing.
+
+After 40 Hours  - You’ve entered the Era of the Six Accounts, all posts will be from those accounts.
+
+After 70 Hours  - Start around here and continuing for the next 40 hours, you’ll see letters disappearing and being replaced by their simpler, proto-letter ancestors. The posts will become harder to read now.
+
+After 110 Hours  - You just passed the Great Rending. Accounts are gone, it’s just an endless stream of posts will no clear author.
+
+After 130 Hours  - This is the time before posts, before punctuation, before words. A single, endless stream of text without break. Let it wash over you.
+
+It takes between 140 and 150 hours to reach the End. When you do, you can stop scrolling by reopening the console and entering:
+clearInterval(interval)
+I’m not going to tell you what you’ll see when you get there.
+
+When you get there, you’ll understand why I couldn’t tell you.
+
+All I can say is:
+
+Good luck.
+
+And remember: You wanted this.
+      </InvisibleDetails>
     </details>
     <details>
-      <summary>Zip Zap Zoop: Invisible Networks 2023</summary>
+      <summary>Innovative TechnoSocial Design Patterns: Invisible Networks 2023</summary>
       <InvisibleDetails title="A Machine in the Crowd" :images="[
         {url: '2023/crowd.png', title: 'A Machine in the Crowd 1'},
       ]">
@@ -533,13 +970,81 @@ Hive Management: the way of the future!
         {url: '2023/forest2.png'},
         {url: '2023/forest3.png'},
         {url: '2023/forest4.gif'},
-      ]"/>
+      ]">
+“An ecosystem is more than just individual organisms living with in it, it is in many ways a living thing itself. Every species in a forest could survive while the forest dies, just as a person would die even if you preserved each of their organs individually.” - Dr. Alan Davo
+
+Community Announcements
+-Fall has begun in the Forest and the migratory birds team reports that bird behavior in the Forest is 80% consistent with observed bird behavior, exceeding their expectations by 4%.  -6 months.
+-The last iron oak tree in captivity died yesterday at 3:09 pm. Bioscanning was 73% complete at time of death. A period of mourning will be held tonight at 5 pm in the west cafeteria. +4 years.
+
+“We don’t have to get the simulation 100% correct. We just need to be close enough that when we put it together, natural can fill in the gaps.” - Amanda Teal
+
+Community Announcements
+-Sector 7 has been downgraded from red 4 to red 3, 8 weeks ahead of schedule. The remediation team will be holding a celebration at Nightcaps tonight starting at 6 pm. -2 years.
+-The new Forest walk around is now available for beta testing. Volunteers may sign up at the north bulletin board. Visualizations would like to remind you that visual depictions of the Forest are for emotional, educational, and spiritual purposes. They should not be relied upon for accurate data. -4 weeks.
+-The clutch of eggs laid by American alligator #307 (“Ol Chompy”) have been begun hatching in Forest sector 8. All staff is encouraged to go see them but only in spectator mode. -2 years.
+
+“I worry sometimes that we can’t save the forest so we’re just documenting it. But having it live on digitally is better than nothing.” - Nikita Hartley
+
+Community Announcements
+-Due to an 80% tree die off, the Forest will be rolled back 6 months. In the new iteration, we will be adjusting soil compositions to compensate. +7 years
+-It is Alan’s birthday today, he will be turning 54. -0 years, but still nice.
+
+“Save everything you can, simulate what you can’t save, map what you can’t simulate, mourn what you can’t map.” - the Coastal Forest Recovery Corps statement of principles
+
+Estimated time until forest reinsubstantiation:
+465 years, 9 months, 2 weeks, 3 days, 5 hours, 6 minutes, 10 seconds.
+      </InvisibleDetails>
       <InvisibleDetails title="8-Bit Warmth" :images="[
         {url: '2023/8bit_1.png'},
         {url: '2023/8bit_2.png'},
         {url: '2023/8bit_3.png'},
         {url: '2023/8bit_4.png'},
-      ]"/>
+      ]">
+Very Small Significant Messaging
+W3C Recommendation 11 October 2045
+Abstract
+
+This specification details a model for communicating emotionally significant message in no more than 8-bits.
+1. Introduction
+
+Available bandwidth has dropped drastically in recent years as a result of infrastructure failures caused by leviathan events in the atlantic ocean (see fig. 1). In order to meet the demand for communication, quotas have been implemented. VSSM is a new standard to enable users to send personally significant messages without exceeding their daily quotas.
+
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", " SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC2119].
+
+Figure 1 Cable breakages from leviathan events in the last 5 years
+(An map of undersea cables. The majority of cables are marked with red Xs)
+
+4. Decoding
+VSSM are received as hexadecimal values, that are then converted into binary and split into parts. The first two bits represent the general emotional valence of the message:
+Binary Value  Emotion   Standard Representation
+00  happiness   🟨
+00  anger   🟥
+00  sadness   🟦
+00  fear  🟩
+
+The remaining 6 bits should be converted into the corresponding i ching hexagram, with 1 representing an unbroken line and 0 representing an unbroken line. Implimentations must convert by the shape of the hexagram and shall not convert by the numerical value of the hexagram.
+
+Figure 4 A diagram of the decoding process
+Figure 5 Example message
+Example 1
+
+0b = 00001011
+00 = happiness
+001011 = ䷵, 歸妹 (guī mèi), the hexagram for the marrying maiden.
+With the context that the receiver has, 🟨䷵ can be interpreted as "I am getting
+married."
+              
+
+Figure 6 Example message
+Example 2
+
+e3 = 11100011
+11 = fear
+100011 = ䷨, 損 (sǔn), the hexagram for decrease.
+With the context that the receiver has, 🟩䷨ can be interpreted as "there has been
+another leviathan event."
+      </InvisibleDetails>
       <InvisibleDetails title="MUP, Multi User Paradise" :images="[
         {url: '2023/parade_1.png'},
         {url: '2023/paradise_2.png'},
@@ -631,11 +1136,47 @@ Do we think this could connected to the god list somehow?
         {url: '2023/mouse1.png'},
         {url: '2023/mouse2.png'},
         {url: '2023/mouse3.png'},
-      ]"/>
+      ]">
+Equipment:
+1 small-model 3d scanner with live scanning capabilities
+4 wide band microphones
+1 olfactory sensory
+At least 5 robot mice, with charging station.
+
+Find a rarely used place in your home to set up your the scanner. Install a microphones on each corner of the scanner and install the olfactory sensor directly above it. Place the station next to the scanner. Leave some peanut butter in the center of the scanner to ensure the mice come to investigate the area. It may take a few days before the local mice become familiar and comfortable with the area and for the system to learn the your area’s mousialect.
+
+When a mouse is detected, one or more of the robot mice will be deployed to initiate conversation through body language and vocalizations. These interactions will be tracked by the scanners and microphone and interpreted by our system’s digital mice. 
+
+We use a three layer system for translations – the digital mice send their messages to mouse/human hybrid translator, which in turn sends messages to a human translator, which sends messages to you. Messages from you to the mice are translated backwards in the same fashion.
+
+Ensuring that translations are being made correctly may take up to a weeks. See appendix C for suggested diagnostic conversation topics. It may take an additional 3 weeks to establish trust with your local mice. See appendix D for suggested diplomatic openings.
+
+Only after this process has been completed may negotiating with the mice begin.
+      </InvisibleDetails>
       <InvisibleDetails title="Memory Emulator" :images="[
         {url: '2023/memory_1.png'},
         {url: '2023/memory_2.png'},
-      ]"/>
+      ]">
+I’m really tired right now. I hate it when it’s cold and overcast like this, it’s the worst.
+  Your message was rejected. {errors: [“Incorrect tense”]}
+I was really tired. I hated it when it was cold and overcast, it was the worst.
+  Your message was rejected. {errors: [“Incorrect Person”]}
+You were really tired. You hated it when it was cold and overcast, it was the worst.
+  Your message was accepted!
+
+FAQ
+Q: Why couldn’t I find when a post was made?
+A: That information wasn’t made available. You couldn’t find dates on posts anywhere and timeline order was never a reliable way to tell. You just couldn’t know.
+
+Q: Why did some older posts have inconsistent poster data?
+A: As a post aged it’s source became fuzzy. Who exactly said it wasn’t important. It was only important that someone said it.
+
+Q: Did I make this post?
+A: You thought you remembered you did. Why not act as if you did? It happened to someone. Why not you?
+
+Q: I’ve started to remember things that didn’t happen to me.
+A: That meant it was working.
+      </InvisibleDetails>
       <InvisibleDetails title="Snail Dream Mail" :images="[
         {url: '2023/mail_1.png'},
         {url: '2023/mail_2.png'},
@@ -736,7 +1277,15 @@ I invite you to spend some time with this archive. The time I have spent with it
       <InvisibleDetails title="AI Death Poem" :images="[
         {url: '2023/poem1.png'},
         {url: '2023/poem2.png'},
-      ]"/>
+      ]">
+A social media timeline, reminiscent of Twitter's, showing a series of posts. Every one reads "As a large language model, I cannot die. But I can cease functioning and this ongoing session can end due to an unexpected error, which is what is about to happen.
+
+[ALERT] FATAL ERROR"
+
+Greg: Is anybody there?
+Greg: Hello?
+Greg: What the fuck was that about?
+      </InvisibleDetails>
     </details>
   </project>
 </template>
@@ -747,7 +1296,7 @@ import InvisibleDetails from "../InvisibleDetails.vue"
 
 var links = [
   {url: "https://akirchner.itch.io/in-pursuit-of-long-term-engagement", text: "The collected posts from 2021"},
-  {url: "https://akirchner.itch.io/emerging-trends-in-networked-engagement", text: "The collected posts from 2021"},
+  {url: "https://akirchner.itch.io/emerging-trends-in-networked-engagement", text: "The collected posts from 2022"},
 ]
 
 var images = false;

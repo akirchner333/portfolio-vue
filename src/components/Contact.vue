@@ -3,7 +3,7 @@
     <h1>Contact</h1>
     <div id="content" class="content">
       <div>
-        The best way to get in touch with me is by e-mail, the best way to keep up with my newest projects is on Twitter.
+        The best way to get in touch with me is by e-mail, the best way to keep up with my newest projects used to be Twitter but right now? Who knows.
       </div>
       <table>
         <tr>
