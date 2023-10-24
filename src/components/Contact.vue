@@ -29,7 +29,7 @@
          <tr v-if="mastodon">
           <td><i class="fab fa-mastodon"></i></td>
           <td>Mastodon</td>
-          <td><a :href="'https://cybre.space/@'+mastodon">@{{mastodon}}</a></td>
+          <td><a :href="'https://instance.digital/@'+mastodon">@{{mastodon}}</a></td>
         </tr>
       </table>
     </div>

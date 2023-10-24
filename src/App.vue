@@ -38,8 +38,7 @@ const personalInfo = {
   mastodon: "an_alexa_k",
   twitter: "an_alexa_k",
   itch: 'akirchner',
-  tumblr: 'thejhyde',
-  location: "Chicago"
+  location: "Chicago",
 }
 
 const router = new VueRouter({

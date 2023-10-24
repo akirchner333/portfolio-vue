@@ -1,10 +1,10 @@
 <template>
   <details class="invisible-network">
     <summary>{{title}}</summary>
-    <div v-for="image in images" v-bind:key="image.url">
+    <div v-for="(image, index) in images" v-bind:key="image.url">
       <img 
         v-bind:src="'/images/invisible/' + image.url" 
-        v-bind:title="image.title"
+        v-bind:title="title + ' ' + (index + 1)"
       />
     </div>
     
@@ -32,5 +32,9 @@ export default {
     width: max-content;
     height: max-content;
     max-height: 1000px;
+  }
+
+  .invisible-network pre {
+    white-space: pre-wrap;
   }
 </style>
