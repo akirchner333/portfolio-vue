@@ -630,23 +630,171 @@ DON’T DELAY! COME ON DOWN TODAY!
         {url: '2022/Meta_2.png'},
         {url: '2022/Meta_3.png'},
         {url: '2022/Meta_4.png'},
-      ]">Pending</InvisibleDetails>
+      ]">
+1st Generation VR Social Spaces
+- The first true VR spaces to emerge
+  - Oppose to proto-spaces like VR-chat, Meta Work, Twitter Forest, etc
+- Made possible primarily through advancements in interface
+- Focused on user freedom and eliminating boundaries found in the real world
+- Ultimately failed due to that freedom
+ - Users found the “blank page” nature of the sim too daunting
+  - Groups that did find compelling activities slowly drifted apart from each other
+- This generation lasted roughly 4-6 years, depending on where you define the start and end dates
+GalaxySim, a typical game of this era. Featured a full creative suite of tools and a player space roughly the side of Jupiter. Lifespan: 2 years.
+
+2nd Generation VR Social Spaces - “Versaille Sims”
+- Keeps the behavioral freedoms of the 1st generation but adds social limitations.
+- Made possible through advancements in social AI and advanced community moderation tools.
+- Users interact with the space alongside automated NPCs, who help establish the community rules through social proof. 
+- Different players are given different capabilities, based on their in-sim social standing
+- The 2nd generation suffers from the same issues seen in the 1st generation, just over a longer timeframe.
+  - Eventually, all the social limits are overcome, and anomie sets in
+- The 2nd gen spaces were first seen 8 years ago and have continued to today
+  - But falling engagement suggests we are approaching the end of this generation.
+
+The Court, the most popular of the 2nd generation spaces. Courtly politics in a sprawling, zero-g mansion. Lifespan: 6 years.
+
+Towards a 3rd Generation
+- Given enough time, users will always surpass any limiting social system the space imposes. 
+  - It is near impossible to prevent users from taking a ludic attitude with these spaces, treating them as a problem to solved.
+- The solution: don’t give them that time.
+- A constantly shifting and changing social system can never be permanently solved
+  - Any solution is temporary, as the rules it relies on will change without warning.
+- We can keep users in a sustainable state of engagement and avoid the failure states seen in previous sims.
+
+ISLAND
+
+Generative Social Limitations, Some Principles
+- Bind the users to arbitrary rules.
+  - Outcomes should be black boxes or open random (see Babylon)
+- Detect patterns in player behavior then make them either forbidden or mandatory.
+- Keep the majority of the social power in the hand of automated systems
+  - But do give some power to players - automated systems will never be as arbitrary as other humans can be.
+- Maintain a minimum level of social upheaval - put those on top on the bottom and those on the bottom at the top.
+- Let authority touch any part of the space, but not all parts at once
+  - i.e. let users go anywhere but limit their speech, then let them speak freely but limit their movement
+</InvisibleDetails>
       <InvisibleDetails title="Composite Memory Palace" :images="[
         {url: '2022/palace_1.png'},
         {url: '2022/palace_2.png'},
         {url: '2022/palace_3.png'},
         {url: '2022/palace_4.png'},
-      ]">Pending</InvisibleDetails>
+      ]">
+Wikipedia strives to be a new century’s source of information, a global repository of information, available to all, covering all topics.
+IT HAS FAILED AT THIS AMBITION AND IT WILL CONTINUE TO FAIL!!
+It will fail as long as it clings to the antiquated model of the encyclopedia
+For too long wikipedia has been held back by the standards of a previous age and the conservative editors who enforce them!
+It is time for change!
+It is time to embrace what is possible!
+It is time to embrace what is true!
+It is time to kill the old and let the new be born!
+THIS IS
+              HONEST KNOWLEDGE (Struck through)
+              ANTIBOOK (Struck through)
+THE ARCHITECTS MANIFESTO
+             WIKIPALACE (Struck through)
+     ONTOLOGICALLY FUTURIST (Struck through)
+and we will be delayed no longer!
+
+Our critics accuse us rejecting objectivity and undermining the smooth operation of wikipedia.
+We say
+LET A THOUSAND EDIT WARS RAGE!
+For all of human history, there has only been one way to determine what is true: to fight about it.
+This truth is universal and enduring.
+We did not start these fights, we merely acknowledge and revel in them.
+The violence of knowledge production is good and righteous. (Struck through)
+SHOW THE SCARS PROUDLY
+We hide how pages are created in discussion pages where the average reader never looks.
+It’s tantamount to deceit - knowledge can and should never be separated from how it was created.
+We must hide the scars of war no longer - if it was worth fighting over, it’s worth showing the fight. Show what was replaced, show what might’ve been, show what is still to come.
+Create and display in one stroke!
+We replace false neutrality with bloody truth.
+The truth palimpsest over the defeated falsehood.
+
+CAST OFF THE BOOK
+The shape of the book is not for the benefit of the reader or author
+    The shape of the book is for the benefit of the printer.
+Technologically convenience defined all previous forms of media.
+    Pages, titles, references, topics - we don’t need them anymore!
+WHAT IS THE TRUE HUMAN SHAPE OF KNOWLEDGE? (the word "TRUE" is struck through)
+MEMORY
+Knowledge is only truly alive when it is in the minds of the living.
+Therefore knowledge must be shaped for the benefit of memory.
+
+A PALACE OF MEMORY THAT ANYONE CAN EDIT
+Why force the reader to build their own memory palace? We can give it to them.
+Already shaped to be retained and accessible within their minds.
+
+KNOWLEDGE PRODUCTION IS SOCIAL
+We say
+LET IT BE SOCIAL
+Knowledge is not a stack of dead pages.
+It is sprawling mansion, extending ever outward, with new walls, corridors, windows, doors, and rooms built every day.
+And within each room, a never ending battlefield.
+Wikipedia is a social network and it always has been, stop lying to yourself. (Struck through)
+The architects of this mansion must show their hands.
+  So we may honor them
+  So we may attack them
+  So we may replicate them
+  So we may consume them (struck through
+Only when the architects may build and fight honestly, can Wikipedia fulfill it’s potential.
+CHANGE IS COMING! TRUTH IS COMING! A BETTER WORLD IS COMING! WE WILL NOT BE DELAYED! 
+      </InvisibleDetails>
       <InvisibleDetails title="Witch Hunter, Witch Gatherer" :images="[
         {url: '2022/witch_1.png'},
         {url: '2022/witch_2.png'},
         {url: '2022/witch_3.png'},
-      ]">Pending</InvisibleDetails>
+      ]">
+It seems like every six months some new buzzword sweeps the tech industry, creating a crop of hot new startups and leaving the big players desperately trying to catch up. It happened with microblogging, audio chat, short form videos, the metaverse, and now: Social PVP. Everybody’s talking about it but what is it? And who are the movers and shakers in this exciting new space? Have no fear, I’m here to lay it all out for you.
+
+Five Startups to Watch in Social PVP
+Legend
+    Real Name Policy
+    Moderated
+    Requires cash ante
+    Venture Backed
+    Hosted outside US jurisdiction
+    Involved in an active criminal investigation
+Huntr
+Analyzes interactions to determine who gained status and who lost status. Lose too much status and your account dies. The only way to rejoin the fight is to pay to be resurrected.
+Author’s Commentary: The first, the biggest, and, to many, still the best. Huntr proved there was an interest in communities that really leaned into the toxicity. But now it’s the old man of the space and newer, more innovative networks are nipping at it’s heels.
+
+Umd
+Instead of tracking changes in status, Umd focuses on sentiment analysis. Whoever in the interaction experiences the strongest reaction, loses. Every interaction comes with a cost, with money flowing from the loser to the winner. When you run out of money, you’re out of the discussion. Money movements within the system are free but Umd takes a 15% cut when you cash out.
+Author’s Commentary: Umd simplifies Huntr’s complicated status rankings down to something simple and visceral. No wonder it’s Huntr’s fastest growing competitor. And no wonder it’s commonly agreed to be the most toxic place on the internet. Note that magnify glass up there - it remains to be seen how the assaults connected to the network will impact it’s long term prospects.
+
+DEBATEOSPHERE
+Users band into guilds and battle other guilds. Changes in status are tracked on the guild level instead of the individual level. Funding is procured through the old fashioned track-and-advertise model, so the only price for defeat is the lasting shame.
+Author’s Commentary: Why get into a fist fight when you can start a war? You get the same violence, plus potentially comradery with your fellow soldiers and the chance for immortal glory. With no cash ante and the occasional non-confrontational interaction, DEBATEOSPHERE can be almost pleasant at times. I’m not crazy about that name though.
+
+The Gathering
+An straightforward status game but when an account is defeated, the loser becomes a “vassal” to the winner’s “lord.” Vassals are required to act in their lord’s interests and lords are given full control over their vassals accounts. The Gathering requires accounts to be tightly integrated with the rest of the user’s online life, so the implications of that control can be far reaching.
+Author’s Commentary: Once trolling on huntr no longer provides the same thrill, you move on to higher stakes games like the Gathering. Is it legal? Who knows! Does the Gathering scare me? Definitely.
+
+Kilometer Age
+The standards by which Kilometer Age judges winners and losers in interactions is a closely guarded trade secret, one which KA has proven willing to go to court to protect. Cash changes hands (KA takes no cut when cashing out), leaderboard positions rise and fall, and accounts even sometimes die, all with no straight answers as to what logic underpins it.
+Author’s Commentary: Nobody does it like Kilometer Age. To use the site is to immerse yourself in a deeply alien social system. Users report developing a reflexive understanding of the site’s rules, an understanding they can feel and act upon but not explain. Kilometer Age is a fascinating look at what the future might hold for the social PVP space. If Kilometer Age is possible, who knows else could is?
+      </InvisibleDetails>
       <InvisibleDetails title="Onion-based Design Framework" :images="[
         {url: '2022/Onion_1.png'},
         {url: '2022/Onion_2.png'},
         {url: '2022/Onion_3.png'},
-      ]">Pending</InvisibleDetails>
+      ]">
+Interpersonal Security: The Onion Model
+Obviously, the last thing you want is for people to try to talk to you. But how can you stop them? This where interpersonal security comes in. The onion model describes the different layers of security that an interactor would have to pass through in order to talk to you. We here at Morant take your need to not be disturbed very seriously, which is why we’ve built our network from the ground up to prevent communication wherever possible. We are the only social network that can make this claim.
+
+(An onion graph, with YOU in the center and each outer layer labelled:
+Outages
+Obfuscation
+Bots & Sims
+Incomprehension)
+
+Outages: They can’t talk to you if they can’t talk to anyone. Our network goes down more often than any of our competitors, thanks to a combination or intentional sabotage and cultivated incompetence.
+Obfuscation: Before they can talk to you, they must find you. At Morant we do not connect your account to your real world identity, contacts are sometimes randomly dropped, and usernames will change without warning, so even if they find you, you won’t stay found.
+
+Bots & Sims: For each account a fleet of honeypot accounts is set up, built to resemble the real account but run entirely by bots. Attackers can be delayed by days or even weeks as they communicate with bots, none the wiser.
+Incomprehension: Even if they do talk to you, we make every effort to ensure that they will be not understood. Using cutting edge UTF encoding errors, bargain bin automatic translation, and bespoke image processing algorithms, we work to scrub as much meaning from their messages as possible.
+      </InvisibleDetails>
       <InvisibleDetails title="Keyboards in Unusual Places (+ Approval Miasma)" :images="[
         {url: '2022/Swamp_1.png'},
         {url: '2022/Swamp_2.png'},
