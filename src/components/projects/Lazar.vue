@@ -3,7 +3,6 @@
     header="lazar.social" 
     subheader="A series of experimental social media networks."
     v-bind:links="links"
-    v-bind:images="images"
   >
     <div>
       Lazar dot social is an ongoing project about social media design. Each generation of lazar consists of a temporary social network with some unique, experimental, or ridiculous features. With Lazar I'm trying to explore what's possible for social networks, to look beyond the currently dominant models and get a glimpse of what could be.
@@ -87,15 +86,13 @@ var links = [
   {url: "https://twitter.com/lazardotsocial", text: "The lazar official twitter", comment: "news and announcements for lazar."},
 ];
 
-var images = false;
-
 export default {
   name: 'Lazar',
   components: {
     Project
   },
   data: function(){
-    return {links, images}
+    return {links}
   }
 }
 </script>

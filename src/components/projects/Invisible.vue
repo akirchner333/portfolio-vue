@@ -3,7 +3,6 @@
     header="Invisible Networks" 
     subheader="Pitch decks and epistolaries for fictional social networks"
     v-bind:links="links"
-    v-bind:images="images"
   >
     <div>
       Every year <a href="https://twitter.com/ctrlcreep/">@ctrlcreep</a> does a microfiction event called Invisible Networks, with a set of prompts for fictional social networks. I've participated for the past 3 years and what I wrote is gathered here.
@@ -824,7 +823,7 @@ KEYBOARD
       ]">
 
 Anatomy of an Entrance Share
-Guardian #295 4/6 <- The guardian number and how many attempts it took to defeat
+Guardian #295 4/6 &lt;- The guardian number and how many attempts it took to defeat
 🟨 🟨 ⬛ ⬛ ⬛
 🟨 🟩 🟩 ⬛ 🟩
 ⬛ 🟩 🟩 🟩 🟩
@@ -849,7 +848,8 @@ A: Yes.
 Q: Where do the guardians come from?
 A: Guardians are birthed from the uneasy collective unconsciousness of all humanity, which is to say that we analyze each day’s trends and use that to generate the next day’s guardians based on the community’s moods, interests, and fears.
 
-Q: What’s a good starting build?A: Many people like to try ice-glaive-shield-piercing-fighter first but we recommend playing around to see what build you enjoy starting with!
+Q: What’s a good starting build?
+A: Many people like to try ice-glaive-shield-piercing-fighter first but we recommend playing around to see what build you enjoy starting with!
 
 Jim Beans @Kyle
 Guardian 295 2/6
@@ -1447,16 +1447,14 @@ var links = [
   {url: "https://akirchner.itch.io/emerging-trends-in-networked-engagement", text: "The collected posts from 2022"},
 ]
 
-var images = false;
-
 export default {
-  name: 'ObjectGet',
+  name: 'Invisible',
   components: {
     Project,
     InvisibleDetails,
   },
   data: function(){
-    return {links, images}
+    return {links}
   }
 }
 </script>

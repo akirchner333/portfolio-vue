@@ -21,6 +21,11 @@
           <td>Twitter</td>
           <td><a :href="'https://twitter.com/' + twitter">@{{twitter}}</a></td>
         </tr>
+        <tr v-if="tumblr">
+          <td><i class="fab fa-tumblr"></i></td>
+          <td>tumblr</td>
+          <td><a :href="'https://' + tumblr + '.tumblr.com/'">@{{tumblr}}</a></td>
+        </tr>
         <tr v-if="itch">
           <td><i class="fas fa-gamepad"></i></td>
           <td>Itch.io</td>
@@ -30,6 +35,16 @@
           <td><i class="fab fa-mastodon"></i></td>
           <td>Mastodon</td>
           <td><a :href="'https://instance.digital/@'+mastodon">@{{mastodon}}</a></td>
+        </tr>
+        <tr v-if="bluesky">
+          <td><i class="fa fa-address-card-o"></i></td>
+          <td>Bluesky</td>
+          <td><a :href="'https://bsky.app/profile/'+bluesky">@{{bluesky}}</a></td>
+        </tr>
+        <tr v-if="cohost">
+          <td><i class="fa fa-address-card-o"></i></td>
+          <td>Cohost</td>
+          <td><a :href="'https://cohost.org/'+cohost">@{{cohost}}</a></td>
         </tr>
       </table>
     </div>
@@ -45,7 +60,9 @@ export default {
     github: String,
     twitter: String,
     tumblr: String,
-    itch: String
+    itch: String,
+    cohost: String,
+    bluesky: String,
   }
 }
 </script>

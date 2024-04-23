@@ -38,6 +38,9 @@ const personalInfo = {
   mastodon: "an_alexa_k",
   twitter: "an_alexa_k",
   itch: 'akirchner',
+  tumblr: 'an-alexa-k',
+  bluesky: 'an-alexa-k.bsky.social',
+  cohost: 'an-alexa-k',
   location: "Chicago",
 }
 

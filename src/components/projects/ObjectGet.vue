@@ -22,15 +22,13 @@ var links = [
 //   {url: "objectget_3.jpg", title: ''}
 // ]
 
-var images = false;
-
 export default {
   name: 'ObjectGet',
   components: {
     Project
   },
   data: function(){
-    return {links, images}
+    return {links}
   }
 }
 </script>
