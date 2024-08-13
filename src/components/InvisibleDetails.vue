@@ -15,10 +15,10 @@ defineProps({
       />
     </div>
     
-    <details>
+    <details class="transcript">
       <summary>Transcript</summary>
       <pre>
-        <slot></slot>
+        <slot>Transcript Coming Soon</slot>
       </pre>
     </details>
   </details>
@@ -33,5 +33,9 @@ defineProps({
 
   .invisible-network pre {
     white-space: pre-wrap;
+  }
+
+  .transcript summary{
+    margin-left: 20px;
   }
 </style>
