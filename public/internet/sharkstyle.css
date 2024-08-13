@@ -1,0 +1,25 @@
+body {
+  padding: 0; 
+  margin: 12px; 
+  font-family: monospace;
+  font-size: 12px;
+  line-height: 1;
+  word-wrap: break-word;
+  font-weight: bolder;
+}
+
+h1 {
+  text-align: center;
+}
+
+#text{
+  /*width: 480px;*/
+}
+
+.paragraph{
+  white-space: pre;
+}
+
+.red{
+  color: red;
+}

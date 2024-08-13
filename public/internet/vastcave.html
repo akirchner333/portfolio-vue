@@ -1,0 +1,96 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
+    <!-- uncomment lines below to include extra p5 libraries -->
+    <script language="javascript" src="libraries/p5.dom.js"></script>
+    <!--<script language="javascript" src="libraries/p5.sound.js"></script>-->
+    <script language="javascript" type="text/javascript" src="vastcave.js"></script>
+    <title>A vast cave</title>
+    <style>
+      body{
+        background-color: #d3d3d3;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      .entry{
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 20px;
+        background-color: white;
+        padding: 10px;
+      }
+
+      textarea{
+        width: 300px;
+        resize: none;
+      }
+
+      .output{
+        vertical-align: top;
+        display: inline-block;
+        background-color: white;
+        height: 20000px;
+        overflow-y: hidden;
+      }
+
+      #timeline{
+        width: 500px;
+      }
+
+      .shout{
+        padding: 15px;
+        border-bottom: 1px solid #d3d3d3;
+        /*width: 500px;*/
+        border-collapse: collapse;
+      }
+
+      h1{
+        margin-left: 20px;
+      }
+
+      .triangle{
+        /*border-color: black;*/
+        width: 0;
+        height: 0;
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        
+        border-bottom: 30px solid black;
+      }
+
+      .icon{
+        display: inline-block;
+        vertical-align: top;
+      }
+
+      .text{
+        display: inline-block;
+        margin-left: 10px;
+        width: 420px;
+        word-wrap: break-word;
+      }
+
+      .username{
+        font-weight: bolder;
+        text-decoration: underline;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class = "entry">
+      <textarea id="entry"></textarea>
+      <br>
+      <button onclick="postTimeline()">Shout</button>
+    </div>
+
+    <div class = "output">
+      <h1>Timeline</h1>
+      <div id="timeline">
+      </div>
+    </div>
+  </body>
+</html>
