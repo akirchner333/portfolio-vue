@@ -5,8 +5,6 @@ const links = [
   {url: "https://yellbot.online/", text: "Yellbot.online"},
   {url: "https://github.com/akirchner333/yellbot", text: "The code on github"},
 ]
-
-const images = []
 </script>
 
 <template>
@@ -26,8 +24,9 @@ const images = []
       </ul>
       The yellbots can be followed on Mastodon or any other ActivityPub compatible service.
     </div>
+    <br>
     <div>
-      For yellbot I made an ActivityPub compatible server which will create an account for any unicode character when requested. Posts are only created for accounts which someone is following, allowing for a massive range of possible behavior and only a very small amount of work that needs to be done.
+      For yellbot.online I made an ActivityPub compatible server which will create an account for any unicode character when requested. The character which can appear in Mastodon usernames can be followed directly (like 'p' or '7') while every other character is followed through it's unicode hex value. Posts are only created for accounts which someone is following, allowing for a massive range of possible behavior and only a very small amount of computational work actually performed.
     </div>
   </project>
 </template>

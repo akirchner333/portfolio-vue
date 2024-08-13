@@ -49672,7 +49672,7 @@ Phaser.SoundManager.prototype = {
             }
         }
 
-        if (!!window['AudioContext'])
+        if (window['AudioContext'])
         {
             try {
                 this.context = new window['AudioContext']();
@@ -49682,7 +49682,7 @@ Phaser.SoundManager.prototype = {
                 this.noAudio = true;
             }
         }
-        else if (!!window['webkitAudioContext'])
+        else if (window['webkitAudioContext'])
         {
             try {
                 this.context = new window['webkitAudioContext']();
@@ -74006,7 +74006,7 @@ OverlapKeeper.prototype.getDiff = function(dictA, dictB, result){
 OverlapKeeper.prototype.isNewOverlap = function(shapeA, shapeB){
     var idA = shapeA.id|0,
         idB = shapeB.id|0;
-    return !!!this.overlappingLastState.get(idA, idB) && !!this.overlappingCurrentState.get(idA, idB);
+    return !this.overlappingLastState.get(idA, idB) && !!this.overlappingCurrentState.get(idA, idB);
 };
 
 OverlapKeeper.prototype.getNewBodyOverlaps = function(result){

@@ -1,8 +1,8 @@
 <script setup>
-import { reactive, ref, computed } from 'vue'
+import { reactive, computed } from 'vue'
 
 const projects = [
-  {name: "Yellbot.online", url: "yellbot", tags: ["top", "internet", "programming"], description: "An ActivityPub server that provides bot that yell."},
+  {name: "Yellbot.online", url: "yellbot", tags: ["top", "internet", "programming", "bot"], description: "An ActivityPub server that provides bot that yell."},
   {name: "Lazar.social", url: "lazar", tags: ["top", "internet", "programming"], description: "A series of experimental social media networks."},
   {name: "How Are We Doing?", url:"/images/how_are.html", static: true, tags: ['top', 'internet', 'programming', 'generative'], description: "Charts, graphs, and diagrams taken from the New York Times, with all faces and text programatically blurred out, leaving only the non-specific sense that something is happening."},
   {name: "Invisible Networks", url: "invisible_networks", tags: ["top", "internet", "zine"], description: "Pitch decks and commentary on fictional social networks."},
