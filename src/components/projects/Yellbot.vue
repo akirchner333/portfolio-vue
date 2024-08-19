@@ -3,6 +3,7 @@ import Project from "./Project.vue"
 
 const links = [
   {url: "https://yellbot.online/", text: "Yellbot.online"},
+  {url: "https://an-alexa-k.tumblr.com/post/758894441494986752/on-yellbot-dot-online", text: "On Yellbot Dot Online"},
   {url: "https://github.com/akirchner333/yellbot", text: "The code on github"},
 ]
 </script>

@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import RootView from '../views/RootView.vue'
+import RootView from '../views/RootView.vue';
+import NotFound from "../components/NotFound.vue";
 import CourtOfFerns from '../components/projects/CourtOfFerns.vue';
 import HomeAccess from '../components/projects/HomeAccess.vue';
 import Invisible from '../components/projects/Invisible.vue';
@@ -38,15 +39,11 @@ const router = createRouter({
         { path: "yellbot", component: Yellbot },
         { path: "visual", component: Visual}
       ]
+    },{
+      path: "/:pathMatch(.*)",
+      name: "NotFound",
+      component: NotFound
     }
-    // {
-    //   path: '/about',
-    //   name: 'about',
-    //   // route level code-splitting
-    //   // this generates a separate chunk (About.[hash].js) for this route
-    //   // which is lazy-loaded when the route is visited.
-    //   component: () => import('../views/AboutView.vue')
-    // }
   ]
 })
 
